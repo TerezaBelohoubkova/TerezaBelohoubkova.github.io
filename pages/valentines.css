@@ -1,0 +1,54 @@
+.keys {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 700px;
+    gap: 36px;
+}
+
+.key {
+    width: 100px;
+}
+
+.margin-5{
+    margin-left: 5px;
+}
+
+.illustration-button{
+    display: flex;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    text-decoration: none;
+}
+
+.illustration-button:hover{
+    text-decoration: none;
+}
+
+.illustration-button-anchor{
+    text-decoration: none;
+}
+
+.illustration-button-anchor:hover{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.width-550{
+    width: 550px;
+}
+
+.valentines_pic{
+    max-width: 900px;
+    max-height: 825px;
+}
+
+.gap-72{
+    gap: 72px;
+}

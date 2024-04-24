@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tereza Bělohoubková</title>
+        <link rel="stylesheet" href="/pages/mediaqueries.css" />
+        <link rel="stylesheet" href="/pages/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Questrial&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <nav id="desktop-nav">
+                <div>
+                    <a href="/">
+                        <img class="logo" src="/assets/logo_round.png" />
+                    </a>
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <nav id="hamburger-nav">
+                <div>
+                    <img class="logo" src="/assets/logo_round.png" />
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="togglemenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <a href="#home" onclick="togglemenu()">Home</a>
+                        <a href="#work" onclick="togglemenu()">Work</a>
+                        <a href="#contact" onclick="togglemenu()">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <section id="home">
+                <div class="section_container">
+                    <div class="section__pic-container">
+                        <img
+                            src="/assets/landing_page/pic_hello.png"
+                            alt="profile picture" />
+                    </div>
+                    <div class="section_text-container down">
+                        <h1 class="title">Hi!</h1>
+                        <h1 class="title">I'm Tereza,</h1>
+                        <p class="section_text_p2">
+                            a UX designer with STEM background based in Brno.
+                        </p>
+                        <a href="#work">
+                            <div class="primary-button">
+                                <button class="primary-button-style">
+                                    <div>
+                                        <span>See my work</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="work">
+                <div class="section_container">
+                    <div class="section_subcontainer">
+                        <div class="section_text-container middle">
+                            <h1 class="title">My Work</h1>
+                            <p class="section_text_p"> Browse through my
+                                projects</p>
+                        </div>
+
+                        <div class="grid-container">
+                            <div class="details-container">
+                                <div class="project-img-container">
+                                    <a href="/pages/project-coffee-trip.html">
+                                        <img id="hover"
+                                        src="/assets/landing_page/project-showcase-1.png"
+                                        alt="Project 1"
+                                        class="project-image">
+                                        <div class="overlay">
+                                            <div class="hover-text">App extension
+                                                design</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <h2 class="project-title">
+                                    Increasing user data collection potential
+                                </h2>
+                            </div>
+                            <div class="details-container">
+                                <div class="project-img-container">
+                                    <a href="/pages/project-MH-brand.html">
+                                        <img id="hover"
+                                        src="/assets/landing_page/project-showcase-2.png"
+                                        alt="Project 2"
+                                        class="project-image">
+                                        <div class="overlay">
+                                            <div class="hover-text">Brand identity design</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <h2 class="project-title">
+                                    Attracting
+                                    the right group of customers
+                                </h2>
+                            </div>
+                            <div class="details-container">
+                                <div class="project-img-container">
+                                    <a href="/pages/project-valentines.html">
+                                        <img id="hover"
+                                        src="/assets/landing_page/project-showcase-3.png"
+                                        alt="Project 3"
+                                        class="project-image">
+                                        <div class="overlay">
+                                            <div class="hover-text">Illustration</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <h2 class="project-title">
+                                    Easy way to express feelings this
+                                    Valentine’s
+                                </h2>
+                            </div>
+                            <div class="details-container">
+                                <div class="project-img-container">
+                                    <img
+                                        src="/assets/landing_page/project-showcase-4.png"
+                                        alt="Project 4"
+                                        class="project-image">
+                                </div>
+
+                                <h2 class="project-title">
+                                    Optimizing user flows
+                                    at a social organization website
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section>
+                    <div class="section_container">
+                        <div class="aboutme-subsection-container">
+                            <h1 class="title">About me</h1>
+
+                            <div class="aboutme-subsection">
+                                <h2 class="aboutme-h2">The designer</h2>
+                                <p class="section_text_p2">Hello and welcome to my portfolio!
+
+                                    My name is Tereza Bělohoubková and I'm a scientist turned design thinker.
+                                </p>
+                            </div>
+
+                            <div class="aboutme-subsection">
+                                <h2 class="aboutme-h2">The researcher</h2>
+                                <p class="section_text_p2">My academic journey started in science and tech.
+
+                                    During my studies I've developed a deep understanding of scientific principles, analytical thinking and research methods. These foundational skills have shaped my approach to solving problems.
+                                </p>
+                            </div>
+
+                            <div class="aboutme-subsection">
+                                <h2 class="aboutme-h2">The career
+                                    switch</h2>
+                                <p class="section_text_p2">My first job turned out to be not the one I was passionate about. So I searched for a creative role and found love in user experience.
+
+                                    Making a career shift wasn't easy, but when I set my mind to it, I knew working in a creative environment was my calling.
+
+                                    The cherry on top is the ability to help users and make their lives easier.
+                                </p>
+                            </div>
+                            <div class="primary-button">
+                                <button
+                                    class="primary-button-style"
+                                    onclick="window.open('/assets/My CV.pdf')">
+                                    <div>
+                                        <span>Download CV</span>
+                                    </div>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="section__pic-container">
+                            <img
+                                src="/assets/landing_page/pic_about_me.png"
+                                alt="profile about me" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section id="more">
+                    <div class="section_container">
+                        <div class="section__pic-container">
+                            <img
+                                src="/assets/landing_page/pic_quote.png"
+                                alt="profile about me" />
+                        </div>
+                        <div class="quote-wrapper">
+                            <h1 class="quote-heading">
+                            <span>“I care <b>less</b> about the design.</br>I care <b>more</b> about the people.”</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <h2 id="contact" class="get-in-touch">
+                        Want to get in touch? Find me on <a href="https://www.linkedin.com/in/tereza-b%C4%9Blohoubkov%C3%A1-590515242/" 
+                        target="_blank"
+                        class="linkedin">
+                        Linkedin</a>.
+                    </h2>
+
+                </section>
+            </div>
+
+            <script src="/pages/script.js"></script>
+        </body>
+    </html>

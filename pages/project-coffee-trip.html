@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project Coffee Trip</title>
+    <link rel="stylesheet" href="/pages/mediaqueries.css" />
+    <link rel="stylesheet" href="/pages/style.css" />
+    <link rel="stylesheet" href="/pages/projects.css" />
+    <script src="/pages/coffee-trip-carousel.js" type="module">
+    </script>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
+</head>
+<body>
+    <div class="container">
+        <nav id="desktop-nav">
+            <div>
+                <a href="/">
+                    <img class="logo" src="/assets/logo_round.png" />
+                </a>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="/#home">Home</a></li>
+                    <li><a href="/#work">Work</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <nav id="hamburger-nav">
+            <div>
+                <a href="/">
+                    <img class="logo" src="/assets/logo_round.png" />
+                </a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <a href="/#home" onclick="togglemenu()">Home</a>
+                    <a href="/#work" onclick="togglemenu()">Work</a>
+                    <a href="/#contact" onclick="togglemenu()">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <section id="hero">
+            <div class="section_container">
+                <div class="hero_pic_container">
+                    <img
+                        src="/assets/landing_page/project-showcase-1.png"
+                        alt="profile picture"
+                        class="hero_pic"
+                         />
+                </div>
+
+            </div>
+            <div class="section_container">
+                <div class="section_subcontainer middle">
+                    <h1 class="title hero_width text-center">Increasing user data collection potential and personalizing app at the same time</h1>
+                    <svg class="line"
+                        xmlns="http://www.w3.org/2000/svg" width="764" height="10" viewBox="0 0 764 10" fill="none">
+                        <path d="M764 5.00007L756.5 0.669939L756.5 9.33019L764 5.00007ZM-6.55671e-08 5.75L757.25 5.75007L757.25 4.25007L6.55671e-08 4.25L-6.55671e-08 5.75Z" fill="black"/>
+                        </svg>
+                    <div class="keys">
+                        <div class="key">
+                            <h2 class="aboutme-h2">The App</h2>
+                            <p class="section_text_p2">European Coffee Trip</p>
+                        </div>
+                        <div class="key">
+                            <h2 class="aboutme-h2">Roles</h2>
+                            <p class="section_text_p2">UX designer
+                                UX researcher</p>
+                        </div>
+                        <div class="key">
+                            <h2 class="aboutme-h2">Timeline</h2>
+                            <p class="section_text_p2">Approx. 2 months</p>
+                        </div>
+                        <div class="key">
+                            <h2 class="aboutme-h2">Tools</h2>
+                            <p class="section_text_p2">Figma</br>Google forms</br>MS Excel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="summary">
+            <div class="section_container">
+                <div class="section_subcontainer left">
+                    <h1 class="title width">Summary</h1>
+                    <p class="section_text_p2 w-640">
+                        During the process of learning Figma by copying the European Coffee Trip, an idea turned up to add cafe reviews. 
+    However, this was dismissed by user research, The user research revealed that many users are regular travelers and use the app while traveling. 
+    So instead, I designed a feature that allows users to save memories from their coffee trips in the form of photos.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="takeaways">
+            <div class="section_container">
+                <div class="section_subcontainer">
+                    <div class="gap-24 flex">
+                        <div class="right">
+                            <h1 class="title width right">Key takeaways</h1>
+                        </div>
+                        <div class="gap-16 right">
+                            <h2 class="aboutme-h2 italic-migra">Users’ wants don’t mean the feature will be used</h2>
+                            <p class="section_text_p2 w-640">
+                                In research a user said they’d appreciate a review feature. </br>
+                                However, to a “How did you react when you encountered a bad coffee service?” question, none of the users answered they had left a review or made a comment to staff.
+                            </p>
+                        </div>
+                        <div class="gap-16 left">
+                            <h2 class="aboutme-h2 italic-migra">A feature both business and users can gain from</h2>
+                            <p class="section_text_p2 w-640">
+                                The new special feature design aligns both business’ and users’ wants and needs. </br>
+                                One sollution gives users a personalised app full of their own memories from travels and to business owners a way to track their target customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="search">
+            <div class="section_container">
+                <div class="section_subcontainer">
+                    <div class="gap-24 flex">
+                        <div class="right">
+                            <h1 class="title width right">Current search for speacialty coffee</h1>
+                        </div>
+                        <div class="gap-16 right">
+                            <p class="section_text_p2 w-640">
+                                Simple app, yet downloaded by many. </br>
+                                European Coffee Trip app functions as an encyclopedia of specialty coffee cafes. The current app is mostly financed by listed cafes that can buy a subscription in order to be featured in the app. </br>
+                                The user can discover nearby cafes and filter them based on their liking. </br>
+                            </p>
+                        </div>
+                        <div class="middle">
+                            <div class="wrapper">
+                                <div class="carousel-container">
+                                  <div class="carousel"></div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    <div class="container">
+        <section id="research">
+            <div class="section_container">
+                <div class="section_subcontainer">
+                    <div class="gap-56 flex">
+                        <div class="gap-24 left">
+                            <div class="left">
+                                <h1 class="title width">Quantitative & qualitative research</h1>
+                            </div>
+                            <div class="gap-16 right">
+                                <div class="flex-row middle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                        <path d="M3.564 7.51C4.39601 5.85324 5.67237 4.46051 7.25043 3.48747C8.82849 2.51443 10.6461 1.99942 12.5 2C15.195 2 17.459 2.991 19.19 4.605L16.323 7.473C15.286 6.482 13.968 5.977 12.5 5.977C9.895 5.977 7.69 7.737 6.905 10.1C6.705 10.7 6.591 11.34 6.591 12C6.591 12.66 6.705 13.3 6.905 13.9C7.691 16.264 9.895 18.023 12.5 18.023C13.845 18.023 14.99 17.668 15.886 17.068C16.4054 16.726 16.8501 16.2822 17.1932 15.7635C17.5363 15.2448 17.7706 14.6619 17.882 14.05H12.5V10.182H21.918C22.036 10.836 22.1 11.518 22.1 12.227C22.1 15.273 21.01 17.837 19.118 19.577C17.464 21.105 15.2 22 12.5 22C11.1866 22.0005 9.88604 21.7422 8.67254 21.2399C7.45905 20.7375 6.35645 20.0009 5.42776 19.0722C4.49907 18.1436 3.7625 17.041 3.26013 15.8275C2.75777 14.614 2.49948 13.3134 2.5 12C2.5 10.386 2.886 8.86 3.564 7.51Z" fill="#9D9ADE"/>
+                                        </svg>
+                                    <p class="w-640 research_p2">Google forms</p>
+                                </div>
+    
+                                <div class="flex-row middle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                        <path d="M12.5 4C13.5609 4 14.5783 4.42143 15.3284 5.17157C16.0786 5.92172 16.5 6.93913 16.5 8C16.5 9.06087 16.0786 10.0783 15.3284 10.8284C14.5783 11.5786 13.5609 12 12.5 12C11.4391 12 10.4217 11.5786 9.67157 10.8284C8.92143 10.0783 8.5 9.06087 8.5 8C8.5 6.93913 8.92143 5.92172 9.67157 5.17157C10.4217 4.42143 11.4391 4 12.5 4ZM12.5 14C16.92 14 20.5 15.79 20.5 18V20H4.5V18C4.5 15.79 8.08 14 12.5 14Z" fill="#9D9ADE"/>
+                                        </svg>
+                                    <p class=" w-640 research_p2">
+                                         7 app users
+                                    </p>
+                                    
+                                </div>
+    
+                                <div class="flex-row middle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                            <path d="M2.5 21H20.5V19H2.5M20.5 8H18.5V5H20.5M20.5 3H4.5V13C4.5 14.0609 4.92143 15.0783 5.67157 15.8284C6.42172 16.5786 7.43913 17 8.5 17H14.5C15.5609 17 16.5783 16.5786 17.3284 15.8284C18.0786 15.0783 18.5 14.0609 18.5 13V10H20.5C21.0304 10 21.5391 9.78929 21.9142 9.41421C22.2893 9.03914 22.5 8.53043 22.5 8V5C22.5 4.46957 22.2893 3.96086 21.9142 3.58579C21.5391 3.21071 21.0304 3 20.5 3Z" fill="#9D9ADE"/>
+                                            </svg>
+                                        <p class="w-640 research_p2">6 coffee lovers (target users)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gap-16 middle">
+                            <h2 class="aboutme-h2 italic-migra">Research results</h2>
+                            <div class="results">
+                                <div class="result">
+                                    <div class="flex gap-16 middle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="48" viewBox="0 0 53 48" fill="none">
+                                            <path d="M24.3095 38C33.9881 38 41.8342 30.8365 41.8342 22C41.8342 13.1634 33.9881 6 24.3095 6C14.631 6 6.78491 13.1634 6.78491 22C6.78491 30.8365 14.631 38 24.3095 38Z" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M46.2153 42L36.6863 33.3" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <p class="research_p2">77 % of users use Instragram</p>
+                                    </div>
+
+                                </div>
+                                <div class="result">
+                                    <div class="flex gap-16 middle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="48" viewBox="0 0 53 48" fill="none">
+                                            <path d="M24.3095 38C33.9881 38 41.8342 30.8365 41.8342 22C41.8342 13.1634 33.9881 6 24.3095 6C14.631 6 6.78491 13.1634 6.78491 22C6.78491 30.8365 14.631 38 24.3095 38Z" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M46.2153 42L36.6863 33.3" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <p class="research_p2">they’ve never left a bad review</p>
+                                    </div>
+
+                                </div>
+                                <div class="result">
+                                    <div class="flex gap-16 middle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="48" viewBox="0 0 53 48" fill="none">
+                                            <path d="M24.3095 38C33.9881 38 41.8342 30.8365 41.8342 22C41.8342 13.1634 33.9881 6 24.3095 6C14.631 6 6.78491 13.1634 6.78491 22C6.78491 30.8365 14.631 38 24.3095 38Z" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M46.2153 42L36.6863 33.3" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <p class="research_p2">77 % of users travel more than 4x a year</p>
+                                    </div>
+
+                                </div>
+                                <div class="result">
+                                    <div class="flex gap-16 middle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="48" viewBox="0 0 53 48" fill="none">
+                                            <path d="M24.3095 38C33.9881 38 41.8342 30.8365 41.8342 22C41.8342 13.1634 33.9881 6 24.3095 6C14.631 6 6.78491 13.1634 6.78491 22C6.78491 30.8365 14.631 38 24.3095 38Z" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M46.2153 42L36.6863 33.3" stroke="#9D9ADE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <p class="research_p2">they keep memories in photos</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <h2 class="aboutme-h2 italic-migra">Research takeaways</h2>
+                            <div class="flex left gap-16">
+                                <div class="flex-row middle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28" fill="none">
+                                        <path d="M21.5 14L1.5 2L15.3 14L1.5 26L21.5 14Z" fill="#9D9ADE" stroke="#9D9ADE" stroke-width="3" stroke-linejoin="round"/>
+                                        </svg>
+                                    <p class="w-640 research_p2">app is mostly used by users while traveling</p>
+                                </div>
+    
+                                <div class="flex-row middle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28" fill="none">
+                                        <path d="M21.5 14L1.5 2L15.3 14L1.5 26L21.5 14Z" fill="#9D9ADE" stroke="#9D9ADE" stroke-width="3" stroke-linejoin="round"/>
+                                        </svg>
+                                    <p class=" w-640 research_p2">
+                                        review feature wouldn’t be used
+                                    </p>
+                                    
+                                </div>
+    
+                                <div class="flex-row middle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28" fill="none">
+                                        <path d="M21.5 14L1.5 2L15.3 14L1.5 26L21.5 14Z" fill="#9D9ADE" stroke="#9D9ADE" stroke-width="3" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="w-640 research_p2">a photo saving feature could be appreciated</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="design">
+            <div class="section_container">
+                <div class="section_subcontainer">
+                    <div class="flex middle gap-16">
+                        <h1 class="title width middle">Final design</h1>
+                        <p>Discover the prototype</p>
+                    </div>
+
+                    <div class="flex middle row">
+                        <div class="flex gap-24">
+                            <div class="flex gap-16 column">
+                                <h2 class="aboutme-h2 italic-migra">No annoying waiting to load</h2>
+                                <p class="section_text_p2">Current app doesn’t have a loading screen. A throbber appears on the screen while loading the app. In order to reduce users’ annoyance with a throbber a new loading screen in the form of a coffee cup was designed.</p>
+                            </div>
+                            <div class="flex gap-16">
+                                <h2 class="aboutme-h2 italic-migra">Keeping memories from coffee trips</h2>
+                                <p class="section_text_p2">New feature of adding coffee memories from trips was added to the menu. The trips are sorted according to cities and cafes. Memories are kept in the form of photos with a description similar to the Instagram feed.
+                                    A user gains a familiarity and fondness for the app, while business owners gain a way to keep track of frequency of cafe visits.                                </p>
+                            </div>
+                            <div class="flex gap-16">
+                                <h2 class="aboutme-h2 italic-migra">Easily available button</h2>
+                                <p class="section_text_p2">So that the new feature is conveniently available, a new button was added to a cafe page. The button replaces a navigation button as there are already 2 on a cafe page.
+                            </div>
+                        </div>
+                        <div class="flex column">
+                            <iframe style=" border: 1px solid rgba(0, 0, 0, 0.1); background: white; border-radius: 20px; height: 900px; width: 500px" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5YDQ9UeWkoGiDY8fXKarbi%2FEuropean-coffee-trip-add-on%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D367-2668%26viewport%3D424%252C382%252C0.09%26t%3DhsK6TGjWziNzWoQZ-1%26scaling%3Dscale-down%26starting-point-node-id%3D358%253A2528%26mode%3Ddesign" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="container">
+        <section id="quote">
+            <div class="section_container">
+                <div class="section_subcontainer">
+                    <div class="flex left gap-16">
+                        <h1 class="title width left">More projects</h1>
+                    </div>
+                        
+                    <div class="grid-container-more">
+                        <div class="more-img-container">
+                            <a href="/pages/project-MH-brand.html">
+                                <img id="hover"
+                                src="/assets/landing_page/project-showcase-2.png"
+                                alt="Project 2"
+                                class="more-image">
+                            <div class="overlay">
+                                <div class="hover-text">Brand identity design</div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="more-img-container">
+                            <a href="/pages/project-valentines.html">
+                                <img id="hover"
+                                src="/assets/landing_page/project-showcase-3.png"
+                                alt="Project 1"
+                                class="more-image">
+                                <div class="overlay">
+                                    <div class="hover-text">Illustration</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+            <h2 id="contact" class="get-in-touch">
+                Want to get in touch? Find me on <a href="https://www.linkedin.com/in/tereza-b%C4%9Blohoubkov%C3%A1-590515242/" 
+                target="_blank"
+                class="linkedin">
+                Linkedin</a>.
+            </h2>
+        </section>
+    </div>
+    <script src="/pages/script.js"></script>
+</body>
+</html>
