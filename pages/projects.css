@@ -71,9 +71,15 @@
       align-items: center;
       gap: 10px;
       border-radius: 57px;
-    border: 3px solid #D5D3F8;
-    background: rgba(213, 211, 248, 0.56);
-    z-index: 1;
+      border: 3px solid #D5D3F8;
+      background: rgba(213, 211, 248, 0.56);
+      z-index: 1;
+      cursor: pointer;
+  }
+
+  .carousel__arrow :hover {
+    background: rgba(157, 154, 222, 0.44);
+    transition: all 0.3s ease-in-out;
   }
 
   .carousel__arrow::before {
@@ -119,7 +125,7 @@
       width: 797px;
   }
 
-    .line {
+  .line {
       width: 797px;
       stroke-width: 1.5px;
       stroke: #000;
@@ -146,10 +152,17 @@
     gap: 24px;
   }
 
-  section{
+  section {
     padding-bottom: 20vh;
   }
 
+  #takeaways .section_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+ 
   .research_p2 {
     color: #000;
     font-family: Agrandir;
@@ -219,3 +232,4 @@
 .more-img-container:hover .overlay {
     opacity: 1;
 }
+
