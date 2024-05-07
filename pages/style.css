@@ -55,6 +55,7 @@
 
 * {
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -165,7 +166,7 @@ a:hover {
 
 .hamburger-menu {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 .hamburger-icon {
@@ -188,7 +189,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    width: 80%;
+    width: auto;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -197,6 +198,7 @@ a:hover {
 .menu-links a {
     display: block;
     flex-direction: column;
+    float: right;
     gap: 1rem;
     padding: 10px;
     text-align: right;
@@ -293,6 +295,7 @@ section {
 .section_text_p {
     font-weight: normal;
     letter-spacing: 1.6px;
+    text-align: center;
 }
 
 .section_text_p1 {
@@ -480,7 +483,7 @@ section {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10vh;
+    gap: 5vh;
 }
 
 .middle {
@@ -670,22 +673,27 @@ section {
 /*MOBILE VERSION*/
 
 @media only screen and (max-width: 600px) {
+
+    .section__pic-container img {
+        max-width: 25rem;
+    }
+
+
     .container {
-         width: 100%;
-         margin: 0 2rem;
-        }
+         width: calc(100% - 2rem);
+         margin: 0 1rem;
+    }
+    
     section {
         gap: 0.5rem;
+        align-items: center;
+        padding-bottom: 10vh;
     }
 
     body {
         display: block;
     }
-
-    nav {
-        width: 90%;
-    }
-
+    
     #hamburger-nav {
         position: sticky;
         top: 0px;
@@ -695,19 +703,27 @@ section {
         display: flex;
         flex-direction: column;
         width: 80%;
-        gap: 24px;
+        gap: 8vh;
+        align-items: center;
     }
    
    .title {
         text-align: center;
+        font-size: 3.5rem;
    }
        
    .section__pic-container {
-        width: 200px;
+        width: fit-content;
         min-height: 200px;
     }
 
-    
+    #home img {
+        width: inherit;
+    }
+
+    #home {
+        padding-bottom: 10vh;
+    }
 
     .down {
         justify-content: center;
@@ -737,12 +753,14 @@ section {
     .grid-container {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 90vw;
+        gap: 2vh;
     }
 
     .details-container>h2 {
         max-width: fit-content;
         margin: 0 2px;
+        font-size: 16px;
     }
     
     .aboutme-subsection-container {
@@ -750,7 +768,8 @@ section {
     }
 
     .aboutme-h2 {
-        text-align: center;
+        text-align: left;
+        font-size: 2rem;
     }
 
     #aboutme .primary-button{
@@ -758,13 +777,30 @@ section {
     }
 
     #aboutme img {
-        object-fit: contain;
+        object-fit: cover;
+        width: 350px;
     }
-    
+
+    #more .section_container {
+        flex-direction: column-reverse;
+    }
+
+    .get-in-touch{
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 18px;
+    }
+    .quote-heading{
+        margin-top: 2rem;
+        font-size: 36px;
+    }
+    .linkedin{
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 601px) {
+/* @media (max-width: 601px) {
     .container {
          width: 100%;
         }
-    }
+    } */
