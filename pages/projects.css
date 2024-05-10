@@ -238,3 +238,22 @@
     opacity: 1;
 }
 
+.hover-text-more {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .5s ease;
+  font-family: Agrandir;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 440px;
+}
+
