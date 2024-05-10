@@ -688,7 +688,7 @@ section {
     section {
         gap: 0.5rem;
         align-items: center;
-        padding-bottom: 10vh;
+        padding-bottom: 8vh;
     }
 
     body {
@@ -781,6 +781,11 @@ section {
     #aboutme img {
         object-fit: cover;
         width: 350px;
+    }
+
+    #quote img {
+        margin-left: 20px;
+        padding-right: 0px;
     }
 
     #more .section_container {
