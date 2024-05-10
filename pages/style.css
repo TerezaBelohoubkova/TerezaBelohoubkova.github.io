@@ -442,6 +442,7 @@ section {
     width: 100%;
     opacity: 0;
     transition: .3s ease;
+    justify-content: center;
 }
 
 .project-img-container:hover #hover {
@@ -458,7 +459,7 @@ section {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -722,7 +723,8 @@ section {
     }
 
     #home {
-        padding-bottom: 10vh;
+        padding-bottom: 8vh;
+        padding-top: 4vh;
     }
 
     .down {

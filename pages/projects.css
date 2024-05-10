@@ -120,6 +120,7 @@
   .hero_pic {
       width: 797px;
       height: 563px;
+      border-radius: 10px;
   }
 
   .hero_width {
@@ -190,19 +191,25 @@
     flex-direction: column;
   }
 
-  .row {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-  }
+}
 
-  .more-image {
+.more-image {
     display: block;
     height: auto;
     object-fit: cover;
     max-width: 100%;
+    display: flex;
+    width: 501px;
+    height: 356.372px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
 }
 
 .more-img-container {
