@@ -159,9 +159,21 @@
   }
 
   #takeaways.section_container {
-  align-items: end;
+    align-items: end;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
   }
- 
+
+  .section_container-photo {
+    display: flex;
+    height: 600px;
+    width: auto;
+    margin: 0 0;
+  }
+  
   .research_p2 {
     color: #000;
     font-family: Agrandir;

@@ -268,7 +268,8 @@ section {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1200px;
+    
 }
 
 .section_subcontainer {
@@ -623,10 +624,6 @@ section {
     padding-bottom: 10vh;
 }
 
-.width{
-    width: 1020px;
-}
-
 .text-center{
     text-align: center;
 }
@@ -676,12 +673,13 @@ section {
 @media only screen and (max-width: 600px) {
 
     .section__pic-container img {
-        max-width: 25rem;
+        max-width: 80vw;
+        max-height: 80vw;
     }
 
 
     .container {
-         width: calc(100% - 2rem);
+         width: calc(100vw - 20vw);
          margin: 0 1rem;
     }
     
@@ -691,8 +689,15 @@ section {
         padding-bottom: 8vh;
     }
 
+    html{
+        overflow-x: hidden;
+    }
+
     body {
-        display: block;
+        display: grid;
+        max-width: 100dvw;
+        overflow-x: hidden;
+        margin: 0;
     }
     
     #hamburger-nav {
@@ -703,7 +708,7 @@ section {
     .section_container {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 80vw;
         gap: 8vh;
         align-items: center;
     }
@@ -715,11 +720,12 @@ section {
        
    .section__pic-container {
         width: fit-content;
-        min-height: 200px;
+        height: fit-content;
     }
 
     #home img {
         width: inherit;
+        object-position: bottom;
     }
 
     #home {
@@ -755,7 +761,7 @@ section {
     .grid-container {
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        width: 80vw;
         gap: 2vh;
     }
 
@@ -765,7 +771,7 @@ section {
         font-size: 16px;
     }
 
-    .project-image {
+    .overlay {
         pointer-events: none;
     }
     
