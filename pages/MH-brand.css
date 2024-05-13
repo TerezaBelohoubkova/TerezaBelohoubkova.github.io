@@ -79,3 +79,140 @@
 #summary{
     margin-left: 60px;
 }
+
+.submark_p2 {
+    color: #000;
+    font-family: Agrandir;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+/* MH*/
+  .MH-keys{
+    width: 80vw;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .MH-key{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    border: 1px solid #0E4132;
+    border-radius: 10px;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .MH-key .aboutme-h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .MH-key .section_text_p2{
+    font-size: 0.9rem;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .summary_pic{
+    width: 80vw;
+    height: auto;
+  }
+
+  #summary{
+    margin-left: 0;
+  }
+
+  .left{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_container-photo{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .pattern_mockup{
+    width: 80vw;
+    height: auto;
+  }
+
+  #sketch img{
+    margin-left: 0;
+  }
+
+  .final_pic{
+    width: 80vw;
+  }
+
+  .pre-line{
+    white-space: normal;
+  }
+  .row{
+    flex-direction: column;
+    gap: 8vh;
+  }
+
+  .flex.row{
+    width: 80vw;
+}
+
+  .final_pic_container{
+    width: 80vw;
+    height: auto;
+  }
+
+  .final_pic{
+    width: 80vw;
+    height: auto;
+  }
+  .width-420{
+    width: 80vw;
+  }
+  #vlas .aboutme-h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .margin-62{
+    margin-left: 0;
+  }
+
+  #vlas .row{
+    flex-direction: column-reverse;
+    gap: 4vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .submark_p2{
+    width: 60vw;
+  }
+
+  #final.w-640{
+    width: 60vw;
+  }
+
+  .vizitka{
+    width: 80vw;
+  }
+
+  #summary.primary-button{
+    margin: auto;
+  }
+}

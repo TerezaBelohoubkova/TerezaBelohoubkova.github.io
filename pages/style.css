@@ -365,11 +365,11 @@ section {
 
 .details-container {
     display: flex;
-    padding: 20px !important;
+    padding: 1.5rem !important;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    border-radius: 32px;
+    border-radius: calc(2rem + 15px);
     border: 1px solid #0E4132;
     width: initial;
 }
@@ -393,18 +393,6 @@ section {
     color: #0e4132;
     font-family: 'PPMigra';
     font-style: italic;
-}
-
-.details-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    border-radius: calc(2rem + 15px);
-    text-align: center;
-    border-color: #222;
-
 }
 
 .project-img-container {
@@ -686,7 +674,7 @@ section {
     section {
         gap: 0.5rem;
         align-items: center;
-        padding-bottom: 8vh;
+        padding-bottom: 8vh !important;
     }
 
     html{
@@ -772,7 +760,7 @@ section {
     }
 
     .overlay {
-        pointer-events: none;
+        display: none;
     }
     
     .aboutme-subsection-container {
@@ -809,11 +797,12 @@ section {
     }
     .quote-heading{
         margin-top: 2rem;
-        font-size: 36px;
+        font-size: 36px!important;
     }
     .linkedin{
         font-size: 18px;
     }
+
 }
 
 /* @media (max-width: 601px) {

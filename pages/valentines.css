@@ -52,3 +52,30 @@
 .gap-72{
     gap: 72px;
 }
+
+@media only screen and (max-width: 600px) {
+.keys{
+    width: 80vw;
+    gap: 30px;
+}
+
+.key{
+    width: 35vw;
+}
+
+#summary .primary-button-style{
+    left: 0;
+    right: 0;
+}
+
+.valentines_pic{
+    width: 80vw;
+}
+
+.width-550{
+    width: 80vw;
+    text-align: left;
+}
+
+}
+

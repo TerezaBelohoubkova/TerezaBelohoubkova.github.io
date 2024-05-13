@@ -269,3 +269,162 @@
   width: 440px;
 }
 
+.display-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero:first-child {
+    margin-top: 5vh;
+  }
+  
+  .hero_pic{
+    width: 80vw;
+    height: auto;
+  }
+
+  .hero_width{
+    width: 80vw;
+    font-size: 2rem !important;
+  }
+
+  .line{
+    width: 80vw;
+    margin: 0;
+  }
+
+  .keys{
+    width: 80vw;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .key{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    border: 1px solid #0E4132;
+    border-radius: 10px;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .key .aboutme-h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .key .section_text_p2{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+ 
+  .w-640{
+    width: auto;
+  }
+
+  #takeaways .right{
+    justify-content: center;
+    align-items: center;
+  }
+
+  #takeaways .aboutme-h2{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 48px !important;
+  }
+
+  .carousel__arrow--right{
+    right: 0;
+  }
+
+  .carousel__arrow--left{
+    left: 0;
+  }
+
+  .carousel__arrow{
+    width: 100px;
+    height: 100px;
+  }
+
+  .carousel{
+    width: 80vw;
+    height: 40vh;
+  }
+
+  #search .left{
+    justify-content: center;
+    align-items: center;
+  }
+
+  #research .left{
+    justify-content: center;
+    align-items: center;
+  }
+
+  #research .right{
+    justify-content: start;
+    align-items: start;
+  }
+
+  .width{
+    width: 80vw;
+  }
+
+  .results{
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  #research .aboutme-h2{
+    text-align: center;
+  }
+
+  .research_p2{
+    width: 60vw;
+  }
+
+  #design .aboutme-h2{
+    text-align: center;
+  }
+
+  #figma_frame{
+    display: none;
+    width: 80vw !important;
+    height: 70vh !important;
+  }
+
+  .display-mobile{
+    display: contents;
+  }
+
+  #design .primary-button-style{
+    margin-top: 24px;
+    right: 0;
+    left: 25%;
+  }
+
+  .grid-container-more{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .more-img-container img{
+    height: auto;
+  }
+
+  .overlay {
+      display: none;
+  }
+
+}
