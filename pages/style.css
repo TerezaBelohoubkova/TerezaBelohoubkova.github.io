@@ -189,19 +189,20 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    width: auto;
+    width: 100vw;
+    padding-top: 10px;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    background-color: white;
 }
 
 .menu-links a {
-    display: block;
+    display: flex;
     flex-direction: column;
-    float: right;
-    gap: 1rem;
+    float: none;
     padding: 10px;
-    text-align: right;
+    text-align: center;
     font-size: 1.5rem;
     color: #222;
     transition: all 0.3s ease-in-out;
@@ -212,6 +213,7 @@ a:hover {
 }
 
 .menu-links.open {
+    margin-top: 10px;
     max-height: 300px;
 }
 

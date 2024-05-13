@@ -212,7 +212,11 @@
     width: 80vw;
   }
 
-  #summary.primary-button{
-    margin: auto;
+  .magda-button{
+    margin-left: 35%;
+  }
+
+  .gap-24{
+    width: 80vw;
   }
 }
