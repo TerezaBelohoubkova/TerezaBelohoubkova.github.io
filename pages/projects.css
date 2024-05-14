@@ -275,7 +275,7 @@
 
 @media only screen and (max-width: 600px) {
   #hero:first-child {
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
   
   .hero_pic{

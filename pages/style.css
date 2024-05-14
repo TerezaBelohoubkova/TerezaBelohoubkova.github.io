@@ -192,8 +192,12 @@ a:hover {
     width: 100vw;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
     background-color: white;
+}
+
+.menu-links a:active {
+    background-color: #e1bee7;
+    transition: all 0.2s ease-in-out;
 }
 
 .menu-links a {
@@ -204,7 +208,6 @@ a:hover {
     text-align: center;
     font-size: 1.5rem;
     color: #222;
-    transition: all 0.3s ease-in-out;
 }
 
 .menu-links li {
@@ -212,7 +215,6 @@ a:hover {
 }
 
 .menu-links.open {
-    margin-top: 10px;
     max-height: 300px;
 }
 
@@ -671,7 +673,7 @@ section {
          width: calc(100vw - 20vw);
          margin: 0 1rem;
     }
-    
+
     section {
         gap: 0.5rem;
         align-items: center;
@@ -690,7 +692,7 @@ section {
     }
     
     #hamburger-nav {
-        position: sticky;
+        position: fixed;
         top: 0px;
     }
 
@@ -718,8 +720,7 @@ section {
     }
 
     #home {
-        padding-bottom: 8vh;
-        padding-top: 4vh;
+        margin-top: 4vh;
     }
 
     .down {

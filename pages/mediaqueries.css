@@ -5,4 +5,13 @@
     #hamburger-nav {
         display: flex !important;
     }
+    .menu-links{
+        position: fixed !important;
+        width: 100vw !important;
+        top: 0 !important;
+        padding-top: 8vh !important;
+        right: 0 !important;
+        margin: auto;
+        z-index: -1;
+    }
 }
