@@ -120,6 +120,7 @@
   .hero_pic {
       width: 797px;
       height: 563px;
+      object-fit: cover;
       border-radius: 10px;
   }
 

@@ -73,7 +73,7 @@
 }
 
 .vizitka{
-    width: 500px;
+    width: 580px;
 }
 
 .submark_p2 {
@@ -161,7 +161,7 @@
   }
   .row{
     flex-direction: column;
-    gap: 8vh;
+    gap: 4vh;
   }
 
   .flex.row{
@@ -194,10 +194,11 @@
     gap: 4vh;
     margin-top: 4vh;
     margin-bottom: 4vh;
+    align-items: center;
   }
 
   .submark_p2{
-    width: 60vw;
+    width: 70vw;
   }
 
   #final.w-640{
