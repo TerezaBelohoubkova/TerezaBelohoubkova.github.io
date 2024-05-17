@@ -313,7 +313,11 @@
 
   .hero_width{
     width: 80vw;
-    font-size: 2rem !important;
+    font-size: 2rem;
+  }
+
+  .hero_width.aboutme-h2{
+    font-size: 1.8rem !important;
   }
 
   .line{
@@ -353,7 +357,13 @@
   }
  
   .w-640{
-    width: auto;
+    width: 80vw;
+  }
+
+  #summary .section__pic-container{
+    width: 90vw;
+    height: auto;
+    justify-content: center;
   }
 
   #takeaways .right{
@@ -363,6 +373,11 @@
 
   #takeaways .aboutme-h2{
     text-align: center;
+    width: 80vw;
+  }
+
+  #takeaways .section_container{
+    flex-direction: column-reverse;
   }
 
   h1{
