@@ -118,14 +118,13 @@
   }
 
   .hero_pic {
-      width: 797px;
-      height: 563px;
-      object-fit: cover;
+      width: 80vw;
+      object-fit: contain;
       border-radius: 10px;
   }
 
   .hero_width {
-      width: 797px;
+      width: 80vw;
   }
 
   .line {
