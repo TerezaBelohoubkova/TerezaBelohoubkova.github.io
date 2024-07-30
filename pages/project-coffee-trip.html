@@ -21,7 +21,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
 </head>
 <body>
-    <div class="container">
+    <div class="nav-wrapper">
         <nav id="desktop-nav">
             <div>
                 <a href="/">
@@ -38,12 +38,10 @@
         </nav>
     </div>
     
-    <div class="container">
+    <div class="nav-wrapper">
         <nav id="hamburger-nav">
             <div>
-                <a href="/">
-                    <img class="logo" src="/assets/logo_round.png" />
-                </a>
+                <img class="logo" src="/assets/logo_round.png" />
             </div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="togglemenu()">
@@ -51,13 +49,13 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="menu-links">
-                    <a href="/#home" onclick="togglemenu()">Home</a>
-                    <a href="/#work" onclick="togglemenu()">Work</a>
-                    <a href="/#contact" onclick="togglemenu()">Contact</a>
-                </div>
             </div>
         </nav>
+        <div class="menu-links">
+            <a href="#home" onclick="togglemenu()">Home</a>
+            <a href="#work" onclick="togglemenu()">Work</a>
+            <a href="#contact" onclick="togglemenu()">Contact</a>
+        </div>
     </div>
 
     <div class="container">
@@ -65,7 +63,7 @@
             <div class="section_container">
                 <div class="hero_pic_container">
                     <img
-                        src="/assets/coffee_trip/project-showcase-1.webp"
+                        src="/assets/landing_page/project_mockup1.webp"
                         alt="profile picture"
                         class="hero_pic"
                          />
@@ -75,32 +73,31 @@
             <div class="section_container">
                 <div class="section_subcontainer middle">
                     <h1 class="title hero_width text-center">Case study: Coffee trip app redesign</h1>
-                    <svg class="line"
-                        xmlns="http://www.w3.org/2000/svg" width="764" height="10" viewBox="0 0 764 10" fill="none">
-                        <path d="M764 5.00007L756.5 0.669939L756.5 9.33019L764 5.00007ZM-6.55671e-08 5.75L757.25 5.75007L757.25 4.25007L6.55671e-08 4.25L-6.55671e-08 5.75Z" fill="black"/>
-                        </svg>
+                    <svg class="line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786 2" fill="none">
+                        <path d="M1 1H785" stroke="#D5D3F8" stroke-linecap="round"/>
+                    </svg>    
                     <h2 class="aboutme-h2 hero_width text-center">Enabling users to save their trip memories and business owners to track their target customers</h2>
                     <div class="keys">
-                        <div class="key">
-                            <h2 class="aboutme-h2">The App</h2>
-                            <p class="section_text_p2">European Coffee Trip</p>
+                        <div class="key middle">
+                            <h3 class="subheader_h3">The App</h2>
+                            <p class="section_text_p2 margin-5 text-center">European Coffee Trip</p>
                         </div>
-                        <div class="key">
-                            <h2 class="aboutme-h2">Roles</h2>
-                            <p class="section_text_p2">UX designer
+                        <div class="key middle">
+                            <h3 class="subheader_h3">Roles</h2>
+                            <p class="section_text_p2 margin-5 text-center">UX designer
                                 <br>UX researcher</p>
                         </div>
-                        <div class="key">
-                            <h2 class="aboutme-h2">Timeline</h2>
-                            <p class="section_text_p2">2 months</p>
+                        <div class="key middle">
+                            <h3 class="subheader_h3">Timeline</h2>
+                            <p class="section_text_p2 margin-5 text-center">2 months</p>
                         </div>
-                        <div class="key">
-                            <h2 class="aboutme-h2">Tools</h2>
-                            <p class="section_text_p2">Figma</br>Google forms</br>MS Excel</p>
+                        <div class="key middle">
+                            <h3 class="subheader_h3">Tools</h2>
+                            <p class="section_text_p2 margin-5 text-center">Figma</br>Google forms</br>MS Excel</p>
                         </div>
-                        <div class="key">
-                            <h2 class="aboutme-h2">Reasons</h2>
-                            <p class="section_text_p2">Personal project</p>
+                        <div class="key middle">
+                            <h3 class="subheader_h3">Reasons</h2>
+                            <p class="section_text_p2 margin-5 text-center">Personal project</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +142,7 @@
                 </div>
                 <div class="mockup section__pic-container">
                     <img src="/assets/coffee_trip/mockup summary.webp"
-                    alt="design mockup"
+                    alt="design mockup" class="coffee_app_mockup"
                     >
                 </div>
             </div>
@@ -156,10 +153,8 @@
             <div class="section_container">
                 <div class="section_subcontainer">
                     <div class="gap-24 flex">
-                        <div class="right">
-                            <h1 class="title width right">Current search for specialty coffee</h1>
-                        </div>
-                        <div class="gap-16 right">
+                            <h1 class="title width middle">Current search for specialty coffee</h1>
+                        <div class="gap-16">
                             <p class="section_text_p2 w-640">
                                 Simple app, yet downloaded by many. </br>
                                 European Coffee Trip app functions as an encyclopedia of specialty coffee cafes. The current app is mostly financed by listed cafes that can buy a subscription in order to be featured in the app. </br>
@@ -182,9 +177,9 @@
     <div class="container">
         <section id="takeaways">
             <div class="section_container">
-                <div class="section__pic-container">
+                <div class="pic-container">
                     <img src="/assets/coffee_trip/hand-showcase.webp" 
-                        alt="hand-showcase"
+                        alt="hand-showcase" class="hand-showcase"
                         >
                 </div>
                 <div class="section_subcontainer">
@@ -224,7 +219,7 @@
                             <div class="left">
                                 <h1 class="title width">Quantitative & qualitative research</h1>
                             </div>
-                            <div class="gap-16 right">
+                            <div class="gap-16 left">
                                 <div class="flex-row middle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                                         <path d="M3.564 7.51C4.39601 5.85324 5.67237 4.46051 7.25043 3.48747C8.82849 2.51443 10.6461 1.99942 12.5 2C15.195 2 17.459 2.991 19.19 4.605L16.323 7.473C15.286 6.482 13.968 5.977 12.5 5.977C9.895 5.977 7.69 7.737 6.905 10.1C6.705 10.7 6.591 11.34 6.591 12C6.591 12.66 6.705 13.3 6.905 13.9C7.691 16.264 9.895 18.023 12.5 18.023C13.845 18.023 14.99 17.668 15.886 17.068C16.4054 16.726 16.8501 16.2822 17.1932 15.7635C17.5363 15.2448 17.7706 14.6619 17.882 14.05H12.5V10.182H21.918C22.036 10.836 22.1 11.518 22.1 12.227C22.1 15.273 21.01 17.837 19.118 19.577C17.464 21.105 15.2 22 12.5 22C11.1866 22.0005 9.88604 21.7422 8.67254 21.2399C7.45905 20.7375 6.35645 20.0009 5.42776 19.0722C4.49907 18.1436 3.7625 17.041 3.26013 15.8275C2.75777 14.614 2.49948 13.3134 2.5 12C2.5 10.386 2.886 8.86 3.564 7.51Z" fill="#9D9ADE"/>
@@ -383,28 +378,88 @@
                     </div>
                         
                     <div class="grid-container-more">
-                        <div class="more-img-container">
-                            <a href="/pages/project-MH-brand.html">
-                                <img id="hover"
-                                src="/assets/landing_page/project-showcase-2.webp"
-                                alt="Project 2"
-                                class="more-image">
-                            <div class="overlay">
-                                <div class="hover-text-more">Brand identity design</div>
-                            </div>
-                            </a>
-                        </div>
-                        <div class="more-img-container">
-                            <a href="/pages/project-valentines.html">
-                                <img id="hover"
-                                src="/assets/landing_page/project-showcase-3.webp"
-                                alt="Project 1"
-                                class="more-image">
-                                <div class="overlay">
-                                    <div class="hover-text-more">Illustration</div>
+                        <a href="/pages/project-MH-brand.html">
+                            <div class="card-wrapper">
+                                <svg class="flower_5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" fill="none">
+                                    <path d="M19.1671 20.5361C17.6997 22.3748 16.9167 24.7632 17.1578 27.29C17.3989 29.8168 18.6195 32.014 20.4081 33.5421C15.2414 34.0351 8.29561 33.3494 7.80262 28.1826C7.30964 23.0159 14.0004 21.0291 19.1671 20.5361Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M24.7278 7.68697C29.8945 7.19399 32.1249 14.0859 32.6179 19.2527C30.7492 17.6562 28.2603 16.7903 25.6204 17.0422C22.9805 17.2941 20.7003 18.615 19.1671 20.5361C18.6742 15.3693 19.561 8.17996 24.7278 7.68697Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M33.8589 32.2587C35.3263 30.42 36.1093 28.0315 35.8682 25.5047C35.6271 22.9779 34.4066 20.7807 32.6179 19.2527C37.7846 18.7597 44.7304 19.4454 45.2234 24.6121C45.7164 29.7788 39.0256 31.7657 33.8589 32.2587Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M27.4056 35.7526C30.0456 35.5007 32.3258 34.1797 33.8589 32.2587C34.3519 37.4254 33.465 44.6148 28.2983 45.1078C23.1315 45.6007 20.9011 38.7088 20.4081 33.5421C22.2768 35.1385 24.7657 36.0045 27.4056 35.7526Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M35.7993 25.4898C35.5368 23.152 34.4016 20.9095 32.4444 19.2932C30.4872 17.677 28.0705 16.9863 25.7253 17.1706C29.0301 13.1686 34.4264 8.74211 38.4284 12.047C42.4304 15.3518 39.1042 21.4878 35.7993 25.4898Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M40.953 38.5075C37.6481 42.5095 31.1976 39.2133 27.1956 35.9084C29.6459 35.7159 32.0181 34.5683 33.7067 32.5235C35.3953 30.4787 36.0736 27.9323 35.7993 25.4898C39.8013 28.7947 44.2578 34.5055 40.953 38.5075Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M17.1216 27.5892C17.3841 29.927 18.5193 32.1695 20.4765 33.7858C22.4337 35.402 24.8504 36.0927 27.1956 35.9084C23.8908 39.9104 18.4945 44.3369 14.4925 41.032C10.4905 37.7272 13.8167 31.5912 17.1216 27.5892Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                    <path d="M19.2142 20.5555C17.5256 22.6003 16.8473 25.1468 17.1216 27.5892C13.1196 24.2843 8.66305 18.5735 11.9679 14.5715C15.2728 10.5695 21.7233 13.8657 25.7253 17.1706C23.275 17.3631 20.9028 18.5107 19.2142 20.5555Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                  </svg>
+                                  <svg class="flower_6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151 150" fill="none">
+                                    <path d="M75.6851 74.89C67.2311 84.8055 62.4863 97.5047 62.4571 110.535L62.399 136.435C62.3827 143.696 68.2561 149.596 75.5176 149.612C82.779 149.629 88.6788 143.755 88.6951 136.494L88.7531 110.594C88.7824 97.5637 84.0945 84.8433 75.6851 74.89Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M75.6852 74.8903C84.1391 64.9748 88.884 52.2756 88.9132 39.2454L88.9712 13.3453C88.9875 6.08384 83.1141 0.18408 75.8527 0.167802C68.5912 0.151523 62.6914 6.0249 62.6752 13.2864L62.6171 39.1865C62.5879 52.2166 67.2757 64.937 75.6852 74.8903Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M75.5553 74.7597C65.6398 66.3057 52.9405 61.5609 39.9104 61.5317L14.0103 61.4736C6.74882 61.4573 0.849059 67.3307 0.83278 74.5922C0.816501 81.8536 6.68988 87.7534 13.9513 87.7697L39.8514 87.8277C52.8816 87.857 65.602 83.1691 75.5553 74.7597Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M75.555 74.7591C85.4705 83.213 98.1698 87.9579 111.2 87.9871L137.1 88.0452C144.361 88.0614 150.261 82.1881 150.278 74.9266C150.294 67.6651 144.42 61.7654 137.159 61.7491L111.259 61.691C98.2287 61.6618 85.5083 66.3497 75.555 74.7591Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M75.7398 74.799C88.8162 73.7586 101.098 68.107 110.394 58.8522L112.593 56.6633C121.889 47.4085 127.596 35.1523 128.695 22.0807C115.619 23.1211 103.337 28.7727 94.0406 38.0275L91.8418 40.2164C82.5454 49.4712 76.8388 61.7274 75.7398 74.799Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M22.7688 127.533C35.8452 126.492 48.1268 120.841 57.4232 111.586L59.622 109.397C68.9184 100.142 74.625 87.8861 75.724 74.8145C62.6476 75.8549 50.3659 81.5064 41.0695 90.7613L38.8708 92.9502C29.5744 102.205 23.8678 114.461 22.7688 127.533Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M75.7397 74.8144C76.78 87.8908 82.4316 100.172 91.6864 109.469L93.8754 111.668C103.13 120.964 115.386 126.671 128.458 127.77C127.418 114.693 121.766 102.412 112.511 93.1152L110.322 90.9164C101.067 81.62 88.8113 75.9134 75.7397 74.8144Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                    <path d="M23.0057 21.8434C24.0461 34.9198 29.6977 47.2015 38.9525 56.4979L41.1414 58.6967C50.3962 67.993 62.6524 73.6997 75.724 74.7987C74.6836 61.7223 69.032 49.4406 59.7772 40.1442L57.5883 37.9454C48.3335 28.649 36.0773 22.9424 23.0057 21.8434Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                  </svg>
+                                <div class="project-container">
+                                    <div class="card">
+                                        <img src="/assets/landing_page/project_mockup3.webp"
+                                        class="project-image">
+                                        <div class="content">
+                                            <div class="contentBx">
+                                                <h1 class="hover-text">Brand identity</span></h1>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                        <a href="/pages/project-valentines.html">
+                            <div class="card-wrapper">
+                                <svg class="flower_3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 138" fill="none">
+                                    <path d="M74.1209 67.1593C82.1347 64.9586 89.1061 59.9828 93.7918 53.1193L102.179 40.8337C106.865 33.9703 108.96 25.6655 108.092 17.4006L107.465 11.4363L101.681 13.0244C93.6677 15.2251 86.6963 20.2009 82.0106 27.0644L73.6231 39.35C68.9374 46.2134 66.8421 54.5182 67.7109 62.7831L68.3379 68.7474L74.1209 67.1593Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M34.9943 124.47C43.008 122.27 49.9795 117.294 54.6652 110.43L63.0526 98.1448C67.7384 91.2813 69.8337 82.9766 68.9649 74.7117L68.3379 68.7474L62.5548 70.3355C54.5411 72.5362 47.5697 77.512 42.8839 84.3755L34.4965 96.6611C29.8108 103.525 27.7154 111.829 28.5843 120.094L29.2112 126.058L34.9943 124.47Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M71.2941 63.6136C75.4046 56.3909 76.8157 47.9429 75.2758 39.7764L72.5194 25.1584C70.9795 16.9919 66.5887 9.63787 60.1302 4.40806L55.4695 0.634016L52.5032 5.84622C48.3928 13.0689 46.9817 21.5169 48.5216 29.6834L51.278 44.3014C52.8179 52.4679 57.2086 59.8219 63.6671 65.0517L68.3278 68.8258L71.2941 63.6136Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M84.1563 131.826C88.2667 124.603 89.6778 116.155 88.1379 107.988L85.3816 93.3704C83.8417 85.2039 79.4509 77.8499 72.9924 72.6201L68.3317 68.8461L65.3654 74.0583C61.255 81.281 59.8439 89.729 61.3837 97.8955L64.1401 112.513C65.68 120.68 70.0708 128.034 76.5293 133.264L81.19 137.038L84.1563 131.826Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M66.9178 62.9327C64.7171 54.9189 59.7412 47.9475 52.8778 43.2618L40.5922 34.8743C33.7288 30.1886 25.424 28.0933 17.1591 28.9621L11.1948 29.5891L12.7829 35.3721C14.9836 43.3859 19.9595 50.3573 26.8229 55.043L39.1085 63.4305C45.9719 68.1162 54.2767 70.2115 62.5416 69.3427L68.5059 68.7157L66.9178 62.9327Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M70.094 74.4988C72.2947 82.5125 77.2705 89.4839 84.134 94.1697L96.4196 102.557C103.283 107.243 111.588 109.338 119.853 108.469L125.817 107.842L124.229 102.059C122.028 94.0456 117.052 87.0741 110.189 82.3884L97.9033 74.001C91.0398 69.3152 82.7351 67.2199 74.4702 68.0887L68.5059 68.7157L70.094 74.4988Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M73.5522 71.8003C80.7749 75.9107 89.2228 77.3218 97.3894 75.7819L112.007 73.0256C120.174 71.4857 127.528 67.0949 132.758 60.6364L136.532 55.9757L131.32 53.0094C124.097 48.899 115.649 47.4879 107.482 49.0278L92.8643 51.7841C84.6978 53.324 77.3438 57.7148 72.114 64.1733L68.3399 68.834L73.5522 71.8003Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M5.3401 84.6625C12.5628 88.7729 21.0108 90.184 29.1773 88.6441L43.7953 85.8877C51.9618 84.3478 59.3158 79.9571 64.5456 73.4986L68.3197 68.8379L63.1075 65.8716C55.8848 61.7611 47.4368 60.35 39.2703 61.8899L24.6522 64.6463C16.4857 66.1862 9.13175 70.577 3.90194 77.0355L0.127895 81.6962L5.3401 84.6625Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                </svg>
+                                <svg class="flower_31" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 138" fill="none">
+                                    <path d="M74.1209 67.1593C82.1347 64.9586 89.1061 59.9828 93.7918 53.1193L102.179 40.8337C106.865 33.9703 108.96 25.6655 108.092 17.4006L107.465 11.4363L101.681 13.0244C93.6677 15.2251 86.6963 20.2009 82.0106 27.0644L73.6231 39.35C68.9374 46.2134 66.8421 54.5182 67.7109 62.7831L68.3379 68.7474L74.1209 67.1593Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M34.9943 124.47C43.008 122.27 49.9795 117.294 54.6652 110.43L63.0526 98.1448C67.7384 91.2813 69.8337 82.9766 68.9649 74.7117L68.3379 68.7474L62.5548 70.3355C54.5411 72.5362 47.5697 77.512 42.8839 84.3755L34.4965 96.6611C29.8108 103.525 27.7154 111.829 28.5843 120.094L29.2112 126.058L34.9943 124.47Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M71.2941 63.6136C75.4046 56.3909 76.8157 47.9429 75.2758 39.7764L72.5194 25.1584C70.9795 16.9919 66.5887 9.63787 60.1302 4.40806L55.4695 0.634016L52.5032 5.84622C48.3928 13.0689 46.9817 21.5169 48.5216 29.6834L51.278 44.3014C52.8179 52.4679 57.2086 59.8219 63.6671 65.0517L68.3278 68.8258L71.2941 63.6136Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M84.1563 131.826C88.2667 124.603 89.6778 116.155 88.1379 107.988L85.3816 93.3704C83.8417 85.2039 79.4509 77.8499 72.9924 72.6201L68.3317 68.8461L65.3654 74.0583C61.255 81.281 59.8439 89.729 61.3837 97.8955L64.1401 112.513C65.68 120.68 70.0708 128.034 76.5293 133.264L81.19 137.038L84.1563 131.826Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M66.9178 62.9327C64.7171 54.9189 59.7412 47.9475 52.8778 43.2618L40.5922 34.8743C33.7288 30.1886 25.424 28.0933 17.1591 28.9621L11.1948 29.5891L12.7829 35.3721C14.9836 43.3859 19.9595 50.3573 26.8229 55.043L39.1085 63.4305C45.9719 68.1162 54.2767 70.2115 62.5416 69.3427L68.5059 68.7157L66.9178 62.9327Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M70.094 74.4988C72.2947 82.5125 77.2705 89.4839 84.134 94.1697L96.4196 102.557C103.283 107.243 111.588 109.338 119.853 108.469L125.817 107.842L124.229 102.059C122.028 94.0456 117.052 87.0741 110.189 82.3884L97.9033 74.001C91.0398 69.3152 82.7351 67.2199 74.4702 68.0887L68.5059 68.7157L70.094 74.4988Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M73.5522 71.8003C80.7749 75.9107 89.2228 77.3218 97.3894 75.7819L112.007 73.0256C120.174 71.4857 127.528 67.0949 132.758 60.6364L136.532 55.9757L131.32 53.0094C124.097 48.899 115.649 47.4879 107.482 49.0278L92.8643 51.7841C84.6978 53.324 77.3438 57.7148 72.114 64.1733L68.3399 68.834L73.5522 71.8003Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                    <path d="M5.3401 84.6625C12.5628 88.7729 21.0108 90.184 29.1773 88.6441L43.7953 85.8877C51.9618 84.3478 59.3158 79.9571 64.5456 73.4986L68.3197 68.8379L63.1075 65.8716C55.8848 61.7611 47.4368 60.35 39.2703 61.8899L24.6522 64.6463C16.4857 66.1862 9.13175 70.577 3.90194 77.0355L0.127895 81.6962L5.3401 84.6625Z" fill="#F3C5B2" fill-opacity="0.73"/>
+                                </svg>
+                                <svg class="flower_4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 76" fill="none">
+                                    <path d="M27.4978 29.3479C25.3926 31.9857 24.2693 35.4121 24.6152 39.0371C24.9611 42.6621 26.7121 45.8143 29.2781 48.0064C21.8658 48.7137 11.9014 47.73 11.1941 40.3177C10.4869 32.9055 20.0855 30.0551 27.4978 29.3479Z" fill="#B6ADCC"/>
+                                    <path d="M35.4751 10.9144C42.8873 10.2072 46.0872 20.0944 46.7944 27.5067C44.1135 25.2164 40.5429 23.9741 36.7557 24.3355C32.9684 24.6969 29.6972 26.592 27.4978 29.3479C26.7905 21.9356 28.0629 11.6217 35.4751 10.9144Z" fill="#B6ADCC"/>
+                                    <path d="M48.5747 46.1652C50.6799 43.5274 51.8032 40.101 51.4573 36.476C51.1114 32.851 49.3604 29.6988 46.7944 27.5067C54.2066 26.7994 64.1711 27.7832 64.8784 35.1954C65.5856 42.6077 55.987 45.458 48.5747 46.1652Z" fill="#B6ADCC"/>
+                                    <path d="M39.3168 51.1776C43.1041 50.8163 46.3753 48.9212 48.5747 46.1652C49.2819 53.5775 48.0096 63.8914 40.5974 64.5987C33.1851 65.3059 29.9853 55.4187 29.2781 48.0064C31.959 50.2967 35.5296 51.539 39.3168 51.1776Z" fill="#B6ADCC"/>
+                                    <path d="M51.358 36.4547C50.9814 33.1008 49.3528 29.8837 46.545 27.565C43.7372 25.2463 40.2701 24.2555 36.9056 24.5198C41.6468 18.7785 49.3884 12.4282 55.1297 17.1694C60.871 21.9106 56.0992 30.7134 51.358 36.4547Z" fill="#B6ADCC"/>
+                                    <path d="M58.7514 55.1299C54.0102 60.8713 44.7563 56.1425 39.015 51.4013C42.5302 51.1251 45.9334 49.4788 48.3559 46.5452C50.7784 43.6117 51.7514 39.9586 51.358 36.4547C57.0993 41.1959 63.4926 49.3886 58.7514 55.1299Z" fill="#B6ADCC"/>
+                                    <path d="M24.5626 39.4664C24.9393 42.8203 26.5678 46.0374 29.3756 48.3561C32.1834 50.6748 35.6505 51.6656 39.015 51.4013C34.2738 57.1426 26.5322 63.4929 20.7909 58.7517C15.0496 54.0105 19.8215 45.2078 24.5626 39.4664Z" fill="#B6ADCC"/>
+                                    <path d="M27.5647 29.3759C25.1422 32.3094 24.1692 35.9625 24.5626 39.4664C18.8213 34.7253 12.428 26.5325 17.1692 20.7912C21.9104 15.0499 31.1643 19.7787 36.9056 24.5198C33.3905 24.7961 29.9872 26.4424 27.5647 29.3759Z" fill="#B6ADCC"/>
+                                </svg> 
+                                <div class="project-container">
+                                    <div class="card">
+                                        <img src="/assets/landing_page/project_mockup2.webp"
+                                        class="project-image">
+                                        <div class="content">
+                                            <div class="contentBx">
+                                                <h1 class="hover-text">Case study: AIVA Lab Test results</span></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </a>
                     </div>
                 </div> 
 

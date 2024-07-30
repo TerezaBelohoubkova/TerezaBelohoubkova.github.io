@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     #desktop-nav {
         display: none !important;
     }   
@@ -6,12 +6,9 @@
         display: flex !important;
     }
     .menu-links{
-        position: fixed !important;
-        width: 100vw !important;
-        top: 0 !important;
-        padding-top: 8vh !important;
-        right: 0 !important;
-        margin: auto;
-        z-index: -1;
+        width: 100% !important;
+        font-family: 'Agrandir';
+        font-weight: bold;
+        text-shadow: 1px 1px 10px #FFF, 1px 1px 10px #F0F0F5;
     }
 }

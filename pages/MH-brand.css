@@ -51,8 +51,13 @@
 }
 
 .summary_pic{
+  margin-right: 1rem;
     width: 377px;
     height: 464px;
+}
+
+.pattern_mockup {
+  margin-left: 1rem;
 }
 
 .margin-62{
@@ -104,7 +109,8 @@
     display: flex;
     flex-direction: column;
     width: 35vw;
-    border: 1px solid #0E4132;
+    background-color: #D5D3F8;
+    box-shadow: 2px 4px 12px #00000014;    
     border-radius: 10px;
     height: 18vh;
     justify-content: center;

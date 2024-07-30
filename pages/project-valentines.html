@@ -25,7 +25,7 @@
             rel="stylesheet" />
     </head>
     <body>
-        <div class="container">
+        <div class="nav-wrapper">
             <nav id="desktop-nav">
                 <div>
                     <a href="/">
@@ -42,12 +42,10 @@
             </nav>
         </div>
     
-        <div class="container">
+        <div class="nav-wrapper">
             <nav id="hamburger-nav">
                 <div>
-                    <a href="/">
-                        <img class="logo" src="/assets/logo_round.png" />
-                    </a>
+                    <img class="logo" src="/assets/logo_round.png" />
                 </div>
                 <div class="hamburger-menu">
                     <div class="hamburger-icon" onclick="togglemenu()">
@@ -55,15 +53,13 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <div class="menu-links">
-                        <ul >
-                            <li><a href="/#home" onclick="togglemenu()">Home</a></li>
-                            <li><a href="/#work" onclick="togglemenu()">Work</a></li>
-                            <li><a href="/#contact" onclick="togglemenu()">Contact</a></li>
-                        </ul>
-                    </div>
                 </div>
             </nav>
+            <div class="menu-links">
+                <a href="#home" onclick="togglemenu()">Home</a>
+                <a href="#work" onclick="togglemenu()">Work</a>
+                <a href="#contact" onclick="togglemenu()">Contact</a>
+            </div>
         </div>
 
         <div class="container">
@@ -71,7 +67,7 @@
                 <div class="section_container">
                     <div class="hero_pic_container">
                         <img
-                            src="/assets/landing_page/project-showcase-3.webp"
+                            src="/assets/landing_page/project_mockup2.webp"
                             alt="profile picture"
                             class="hero_pic"
                              />
@@ -80,25 +76,27 @@
                 </div>
                 <div class="section_container">
                     <div class="section_subcontainer middle">
-                        <h1 class="title hero_width text-center">Cutesy and easy way to express feelings on Valentines day</h1>
-                        <svg class="line"
-                            xmlns="http://www.w3.org/2000/svg" width="797" height="10" viewBox="0 0 797 10" fill="none">
-                            <path d="M764 5.00007L756.5 0.669939L756.5 9.33019L764 5.00007ZM-6.55671e-08 5.75L757.25 5.75007L757.25 4.25007L6.55671e-08 4.25L-6.55671e-08 5.75Z" fill="black"/>
-                            </svg>
+                        <h1 class="title hero_width text-center">Case study: AIVA Lab Test results</h1>
+                        <svg class="line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786 2" fill="none">
+                            <path d="M1 1H785" stroke="#D5D3F8" stroke-linecap="round"/>
+                        </svg>                        
+                        <h2 class="aboutme-h2 hero_width text-center">Simplified user-flow leads to higher user retention</h2>
                         <div class="keys">
-                            <div class="key">
-                                <h2 class="aboutme-h2">Roles</h2>
-                                <p class="section_text_p2 margin-5">Illustrator</p>
+                            <div class="key middle">
+                                <h3 class="subheader_h3">Company</h2>
+                                <p class="section_text_p2 margin-5">Y Soft</p>
                             </div>
-                            <div class="key">
-                                <h2 class="aboutme-h2">Timeline</h2>
-                                <p class="section_text_p2 margin-5">1 week</p>
+                            <div class="key middle">
+                                <h3 class="subheader_h3">Role</h2>
+                                <p class="section_text_p2 margin-5">UX designer</p>
                             </div>
-                            <div class="key">
-                                <h2 class="aboutme-h2">Tools</h2>
-                                <p class="section_text_p2 margin-5">Krita 
-                                    <br>Figma 
-                                    <br>Photopea
+                            <div class="key middle">
+                                <h3 class="subheader_h3">Timeline</h2>
+                                <p class="section_text_p2 margin-5">2 weeks</p>
+                            </div>
+                            <div class="key middle">
+                                <h3 class="subheader_h3">Tools</h2>
+                                <p class="section_text_p2 margin-5">Figma
                                 </p>
                             </div>
                         </div>
@@ -108,101 +106,457 @@
         </div>
 
         <div class="container">
-            <section id="summary">
-                <div class="section_container">
-                    <div class="flex gap-24">
-                        <div class="section_subcontainer left">
-                            <div class="flex gap-24">
-                                <h1 class="title width">Summary</h1>
-                                <p class="section_text_p2 width">
-                                    On February 14th, I posted a link to social media containing 5 downloadable .png files of illustrated Valentines day cards.
-        
-                                    Each of them a in a unique design portraying the complexity and uniqueness of love. The illustrations are meant to evoke emotions, memories and the essence of one’s relationship.    
-                                </p>
-                            </div>
-                        </div>
-                        <div class="primary-button"
-                        onclick="window.open('https://www.drive.google.com/drive/folders/1f9NJd-R_A0uYbZaILpGzwQKTcnCWX_9B?usp=sharing')"
-                        >
-                            <button
-                                class="primary-button-style illustration-button">
-                                <div>
-                                    <span>Download Illustrations</span>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="container">
-            <section id="summary">
+            <section id="video_introduction">
                 <div class="section_container middle">
-                    <div class="flex gap-72 middle">
-                        <div class="flex gap-36 middle">
-                            <h1 class="title width middle">5 ways to express love</h1>
-                            <div class="flex middle gap-16">
-                                <img
-                                src="/assets/valentines/i_love_you.webp"
-                                alt="picture"
-                                class="valentines_pic"
-                                    />
-                                <h2 class="aboutme-h2 italic-migra">The I love you</h2>
-                                <p class="section_text_p2 width">
-                                    a simple way to show how the giver feels about the giftee
+                    <div class="flex gap-24 middle">
+                            <h1 class="title width middle">Current UI introduction</h1>
+                            <video src="/assets/AIVA Lab/AIVA Lab Interface.mp4" width="1200" controls loop>
+                            </video>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="summary">
+                <div class="section_container"> 
+                    <div class="pic-container-summary">
+                        <img src="/assets/AIVA Lab/desktop_mockup_AIVA.webp"
+                            alt="design mockup"
+                            class="img_mockup_1">
+                    </div>
+                    <div class="flex gap-24">
+                            <h1 class="title width">Summary</h1>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2">My role</h2>    
+                            <p class="section_text_p2 width">
+                                    During my internship at Y Soft, I got to do a heuristic analysis 
+                                    of an interface AIVA Lab. 
+                                    Not having worked with the interface before, I had a fresh point of view 
+                                    and got to redesign a part of the interface- Test results.      
                                 </p>
+                        </div>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2">Problem</h2>
+                            <p class="section_text_p2 width">
+                                The AIVA Lab interface used to serve developers, but now new users without 
+                                technical background are working with it. This was the main reason to 
+                                optimize the current interface- to serve better to non-tech people.
+                                <br>
+                                Users know that their test failed, but don’t know the reason. They really 
+                                have to put in the work to find out what went wrong. 
+                                The data they are seeking is buried beneath unimportant data.
+                            </p>
+                        </div>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2">Conclusion</h2>
+                            <p class="section_text_p2 width">
+                                The reason of failed robot’s flow should be quickly available to the user.
+                                 The current interface serves unimportant test data first, important second.
+                                 <br> 
+                                 The new design is mainly focused on simplified user flows and lower cognitive load, 
+                                  while staying within an existing design system.
+                            </p>
+                        </div>  
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2">Decision</h2>
+                            <p class="section_text_p2 width">
+                                In order to immediately provide a user with all the important data, 
+                                I designed a bento grid consisting of tiles summarizing important 
+                                and frequently used testing data. The solution keeps user’s cognitive
+                                 load on low and follows Nielsen Norman’s usability heuristics.  
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="pic-container-summary">
+                            <img src="/assets/AIVA Lab/desktop_mockup_AIVA.webp"
+                                alt="design mockup"
+                                class="img_mockup_2">
+                            
+                        </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="heuristic_analysis">
+                <div class="section_container">
+                    <div class="flex gap-72 middle">
+                        <div class="gap-24 middle">
+                            <h1 class="title middle">Heuristic analysis</h1>
+                            <p class="section_text_p2_aiva width">In order to determine user problems 
+                                and pain points, I conducted a heurestic analysis of the interface based on Nielsen Norman Group heurestic principles.
+                                 The defined problems were based on subjective perception and also user testing done at Y Soft.</p>
+                        </div>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2 text-center">Visibility of system status</h2>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">When flow has failed, the user doesn't know why. They have to dive deep to find out.</p>
+                                </div>
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                <p class="section_text_p2_aiva">Add concrete error data and when it occured.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex middle gap-16">
-                            <img
-                            src="/assets/valentines/bunny_love.webp"
-                            alt="picture"
-                            class="valentines_pic"
-                                />
-                            <h2 class="aboutme-h2 italic-migra">Bunny love</h2>
-                            <p class="section_text_p2 width middle">
-                                a cutesy way to show affection
-                            </p>
+                        <div class="gap-16">
+                            
+                            <h2 class="aboutme-h2 text-center">Aesthetic and minimalist design</h2>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem"> 
+                                    <h3 class="subheader_h3 width-10rem">Problem number 1</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">User first sees content, that doesn't interest them. They have to click through the important data.</p>
+                                </div>
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Problem number 2</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">The bar bellow containing buttons is distracting to the user.</p>
+                                </div>
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                <p class="section_text_p2_aiva">Design a different layout that prioritizes data based on importance. And change the position of buttons.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex middle gap-16">
-                            <img
-                            src="/assets/valentines/growing_flowers.webp"
-                            alt="picture"
-                            class="valentines_pic"
-                                />
-                            <h2 class="aboutme-h2 italic-migra">Blossoming love</h2>
-                            <p class="section_text_p2 width middle text-center width-550">
-                                for relationships who’ve been through thick and thin together and are excited to grow side by side mentally and physically
-                            </p>
+                        <div class="gap-16">
+                                <h2 class="aboutme-h2 text-center">Help users recognize, diagnose, and recover from errors</h2>
+                                <div class="no-wrap-row">
+                                    <div class="section_text_container_aiva width-10rem">
+                                        <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                    </div>
+                                    <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">Error messages in logs are confusing and the user doesn't know what they mean.</p>
+                                    </div>
+                                </div>
+                                <div class="no-wrap-row">
+                                    <div class="section_text_container_aiva width-10rem">
+                                        <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                    </div>
+                                    <div class="section_text_container_aiva">
+                                        <p class="section_text_p2_aiva">Change language of error messages.</p>
+                                
+                                    </div>
+                                </div>
                         </div>
-                        <div class="flex middle gap-16">
-                            <img
-                            src="/assets/valentines/GandT.webp"
-                            alt="picture"
-                            class="valentines_pic"
-                                />
-                            <h2 class="aboutme-h2 italic-migra">G&T love</h2>
-                            <p class="section_text_p2 width middle text-center width-550">
-                                a unique way to show affection for a lover
-                            </p>
+                        <div class="gap-16">
+                                <h2 class="aboutme-h2 text-center">Recognition rather than recall</h2>
+                                <div class="no-wrap-row">
+                                    <div class="section_text_container_aiva width-10rem">
+                                        <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                    </div>
+                                    <div class="section_text_container_aiva">
+                                        <p class="section_text_p2_aiva">When the user wants to play the exact time an error occurred on video, they have to remember what time the error occurred then go to video and find exact time slot.</p>
+                                    </div>
+                                </div>
+                                <div class="no-wrap-row">
+                                    <div class="section_text_container_aiva width-10rem">
+                                        <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                    </div>
+                                    <div class="section_text_container_aiva">
+                                        <p class="section_text_p2_aiva">Logs should be available at the same time as video.</p>
+                                    </div>
+                                </div>
                         </div>
-                        <div class="flex middle gap-16">
-                            <img
-                            src="/assets/valentines/flower_box.webp"
-                            alt="picture"
-                            class="valentines_pic"
-                                />
-                            <h2 class="aboutme-h2 italic-migra">A bouquet of flowers</h2>
-                            <p class="section_text_p2 width middle text-center width-550">
-                                when the flowershop has run out of flowers, may also be gifted in a non-romantic way to oneself, family member or a friend
-                            </p>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2 text-center">Match between system and real world</h2>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" class="settings_icon">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C12 0.447754 12.4478 0 13 0H17C17.5522 0 18 0.447754 18 1V4.41406C18.832 4.64941 19.6243 4.98022 20.3635 5.39392L22.7783 2.97913C23.1687 2.58862 23.802 2.58862 24.1924 2.97913L27.021 5.80762C27.4114 6.19812 27.4114 6.8313 27.021 7.2218L24.6062 9.6366C24.8447 10.0631 25.0559 10.5071 25.2368 10.9661C25.3696 11.3029 25.4863 11.6478 25.5859 12H29C29.5522 12 30 12.4478 30 13V17C30 17.5522 29.5522 18 29 18H25.5859C25.3506 18.832 25.0198 19.624 24.6062 20.3634L27.021 22.7782C27.4114 23.1687 27.4114 23.8019 27.021 24.1924L24.1924 27.0209C23.802 27.4114 23.1687 27.4114 22.7783 27.0209L20.3635 24.6061C19.6243 25.0198 18.832 25.3506 18 25.5859V29C18 29.5522 17.5522 30 17 30H13C12.4478 30 12 29.5522 12 29V25.5859C11.168 25.3506 10.3757 25.0198 9.63647 24.6061L7.22192 27.0209C6.8313 27.4114 6.19824 27.4114 5.80762 27.0209L2.97925 24.1924C2.58862 23.8019 2.58862 23.1687 2.97925 22.7782L5.3938 20.3634C4.98022 19.624 4.64941 18.832 4.41406 18H1C0.447754 18 0 17.5522 0 17V13C0 12.4478 0.447754 12 1 12H4.41406C4.52026 11.6243 4.646 11.2567 4.79004 10.8984C4.87231 10.6938 4.96069 10.4923 5.05469 10.2941C5.16064 10.0707 5.27368 9.85144 5.3938 9.6366L2.97925 7.2218C2.58862 6.8313 2.58862 6.19812 2.97925 5.80762L5.80762 2.97913C6.19824 2.58862 6.8313 2.58862 7.22192 2.97913L9.63647 5.39392C10.3757 4.98022 11.168 4.64941 12 4.41406V1ZM15 9C11.6863 9 9 11.6863 9 15C9 18.3137 11.6863 21 15 21C18.3137 21 21 18.3137 21 15C21 11.6863 18.3137 9 15 9Z" fill="#2B7441"/>
+                                                </svg>
+                                                <p class="section_text_p2_aiva">A filter icon that hides a logs filter. The icon suggests settings rather than a filter.</p>
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">Change icon of filtering logs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2 text-center">User control and freedom</h2>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">It isn't clear whether the close button will close only Test results or also whole Reports.</p>
+                                </div>
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">Change close button to go-back button instead. The user goes back to Reports.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gap-16">
+                            <h2 class="aboutme-h2 text-center">Consistency and standards</h2>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Problem</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">There is information above the video that looks like buttons but isn't clickable.</p>
+                                   </div> 
+                            </div>
+                            <div class="no-wrap-row">
+                                <div class="section_text_container_aiva width-10rem">
+                                    <h3 class="subheader_h3 width-10rem">Solution</h3>
+                                </div>
+                                <div class="section_text_container_aiva">
+                                    <p class="section_text_p2_aiva">Hide unnecessary video information about the recording.</p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="lowfi-mockup">
+                <div class="section_container">
+                    <div class="section_subcontainer">
+                        <div class="flex middle">
+                            <div class="middle gap-24">
+                                <div class="middle gap-16">
+                                <h1 class="title width middle">Bento grid sketch</h1>
+                                <h2 class="aboutme-h2 middle">Low fidelity wireframe</h2>
+                                </div>
+                                <p class="section_text_p2 width">
+                                    A bento grid layout solves the issue of immediate availability of data. 
+                                    This way the user sees everything at once and doesn't have to click through
+                                     tabs and remember information.
+                                    <br>
+                                    How did I come up with this? I was heavily influenced by design trends of 
+                                    2024 and been wanting to try out a bento grid design for a long time.
+                                </p>
+                            </div>
+                            <div class="final_pic_container">
+                                <img
+                                    src="/assets/AIVA Lab/lowfi wireframe bento grid.webp"
+                                    alt="lowfi wireframe"
+                                    class="final_pic"
+                                     />
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
 
+        <div class="container">
+            <section id="iterative_design">
+                <div class="section_container">
+                    <div class="section_subcontainer">
+                        <div class="gap-24 middle">
+                        <div class="gap-16 flex middle">
+                           <h1 class="title middle text-center">Fullfiling user needs and accessibility</h1>
+                           <h2 class="aboutme-h2 middle">Iterative design</h2>
+                            
+                        </div>
+                        <p class="section_text_p2 width">
+                                Based on the low-fi wireframe, I started designing a high fidelity prototype. 
+                                The first prototype being a minimum viable product. After receiving feedback 
+                                from other UX designers and checking accessibility of elements, I continued
+                                 designing until the final design fulfilled all the user and accessibility needs.
+                            </p>
+                        </div>
+                        <div class="grid-container-interactive">
+                                <img src="/assets/AIVA Lab/Iteration 1.webp" 
+                                alt="iteration 1"
+                                class="iteration_pic">
+                                <img src="/assets/AIVA Lab/Iteration 2.webp" 
+                                alt="iteration 2"
+                                class="iteration_pic">
+                                <img src="/assets/AIVA Lab/Iteration 3.webp" 
+                                alt="iteration 3"
+                                class="iteration_pic">
+                                <img src="/assets/AIVA Lab/Iteration 4.webp" 
+                                alt="iteration 4"
+                                class="iteration_pic">
+                                <img src="/assets/AIVA Lab/Iteration 5.webp" 
+                                alt="iteration 5"
+                                class="iteration_pic">
+                                <img src="/assets/AIVA Lab/final iteration.webp" 
+                                alt="iteration 6"
+                                class="iteration_pic">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="compare_current_and_new">
+                <div class="section_container">
+                    <div class="gap-36 middle">
+                        <div class="section_subcontainer">
+                            <div class="flex gap-16 middle">
+                                <h1 class="title width middle">Old & New</h1>
+                                <h2 class="aboutme-h2 middle">Comparing current UI with the design</h2>
+                                <p class="section_text_p2"> To better understand the changes and the 
+                                    impact the design can potentially have on the business, let's compare
+                                    the current UI and the design based on user experience.</p>
+                            </div>
+                        </div>
+                        <div class="flex middle column">
+                            <h2 class="aboutme-h2 middle">General test info & occurred errors list</h2>
+                            
+                                <div class="no-wrap-row">
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results before 1.webp" class="comparison_img_left" alt="Old interface">
+                                        <h3 class="subheader_h3">Current UI</h3>
+                                        <p class="section_text_p3">There was too much general information that wasn't necessary for the user.
+                                             It was also taking up a lot of space and the user was first met with the least important information.
+                                            <br>
+                                            Another issue was the Flow Failed status, when the user doesn't immediately understand the reason for 
+                                            failure. The user would have to scroll down and search in logs to understand the moment of failure.
+                                        </p>
+                                    </div>
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results after 1.webp" class="comparison_img_right" alt="Current interface">
+                                        <h3 class="subheader_h3">Design</h3>
+                                        <p class="section_text_p3">In order to make more important test results info stand out, 
+                                            the general information had to be cut down to 5 most important: flow status, 
+                                            robot name, device, time and flow name. All of these are pinned at the top of the screen and more 
+                                            information is available through the show more icon.
+                                            <br>
+                                            The biggest change was adding a list of occurred errors to the layout. The error messages are rewritten
+                                             for users to better understand the issues and there's also a time when the error happened. The goal was
+                                              to make the error information better accessible to the user.             
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="flex middle column">
+                            <h2 class="aboutme-h2 middle">Video & images</h2>
+                            
+                                <div class="no-wrap-row">
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results before 3.webp" class="comparison_img_left" alt="Old interface">
+                                        <h3 class="subheader_h3">Current UI</h3>
+                                        <p class="section_text_p3">
+                                            When wanting to play a video of the robot's flow, the user was met with button-like video data, 
+                                            that didn't interest the user. The video and list of images were burried in tabs. 
+                                            When the user wanted to look at images and video at the same time, they needed to have several browser tabs open.
+                                        </p>
+                                    </div>
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results after 2.webp" class="comparison_img_right" alt="Current interface">
+                                        <h3 class="subheader_h3">Design</h3>
+                                        <p class="section_text_p3">
+                                            The list of images and video were brought out of the tabs and are better accessible to the user. 
+                                            There is no unnecessary data about the video. Labels in images are accessible according to the WCAG guidelines.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="flex middle column">
+                            <h2 class="aboutme-h2 middle">Logs & measurements</h2>
+                            
+                                <div class="no-wrap-row">
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results before 2.webp" class="comparison_img_left" alt="Old interface">
+                                        <h3 class="subheader_h3">Current UI</h3>
+                                        <p class="section_text_p3">
+                                            A huge problem with logs was a filter and search feature hidden in the settings icon, that is known only to developers. 
+                                            In order to find the occurred errors the user had to scroll down and filter out error logs in order to find out cause of flow failure.
+                                            <br>
+                                            To see the measured data during flow, the user had to open a tab and see it.
+                                        </p>
+                                    </div>
+                                    <div class="section_subcontainer middle">
+                                        <img src="/assets/AIVA Lab/test results after 3.webp" class="comparison_img_right" alt="Current interface">
+                                        <h3 class="subheader_h3">Design</h3>
+                                        <p class="section_text_p3">
+                                            The filters are available through the filter icon, while the search bar was moved to a bar above logs to improve accessibility.
+                                            The UI of measurements was kept the same but was moved to the bento grid layout for better availability.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="Takeaways">
+                <div class="section_container">
+                    <div class="flex gap-16">
+                        <h1 class=" title width middle">Learnings</h1>
+                        <div class="section_subcontainer">
+                            <h2 class=" w-640 aboutme-h2">
+                                Getting feedback matters
+                            </h2>
+                            <p class="section_text_p2">
+                                Feedback pushed the boundaries that I
+                                 would involuntarily set in my head. 
+                                 It allowed me to think more critically 
+                                 and make user-centered decisions.
+                            </p>
+                        </div>
+                        <div class="section_subcontainer">
+                            <h2 class=" w-640 aboutme-h2">
+                                The first design isn't the final one
+                            </h2>
+                            <p class="section_text_p2">
+                               The design process is iterative for a reason:
+                                to create the best interface that aligns user and 
+                                stakeholder needs. 
+                                <br>
+                                To validate that a decision I made 
+                                is the right one, it's convenient
+                                to try out different ideas. That way I get more 
+                                confidence in the final design.
+                            </p>
+                        </div>
+                        <div class="section_subcontainer">
+                            <h2 class=" w-640 aboutme-h2">
+                                Following accessibility principles enhances the design
+                            </h2>
+                            <p class="section_text_p2">
+                               Accessibility is a big factor in UX design, as it 
+                               ensures the product can be used by anyone. The 
+                               group of potential users becomes broader, hence 
+                               higher conversion rates of the product.
+                            </p>
+                        </div>
+                </div>
+                </div>
+            </section>
+        </div>
         <div class="container">
             <section id="more">
                 <div class="section_container">
@@ -212,29 +566,82 @@
                         </div>
                             
                         <div class="grid-container-more">
-                            <div class="more-img-container">
-                                <a href="/pages/project-coffee-trip.html">
-                                    <img id="hover"
-                                    src="/assets/landing_page/project-showcase-1.webp"
-                                    alt="Project 1"
-                                    class="more-image">
-                                    <div class="overlay">
-                                        <div class="hover-text-more">App extension
-                                            design</div>
+                            <a href="/pages/project-coffee-trip.html">
+                                <div class="card-wrapper">
+                                    <svg class="flower_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" fill="none">
+                                        <path id="petal_8"
+                                        d="M11.5591 25.462C7.36565 31.3902 8.77192 39.5955 14.7001 43.789L54.2352 71.7552C60.1634 75.9487 68.3686 74.5424 72.5621 68.6142C76.7556 62.686 75.3493 54.4808 69.4211 50.2873L29.8861 22.321C23.9579 18.1275 15.7526 19.5338 11.5591 25.462Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_4" 
+                                        d="M51.3069 53.5786C47.1134 59.5068 48.5196 67.7121 54.4479 71.9056L93.9829 99.8718C99.9111 104.065 108.116 102.659 112.31 96.7308C116.503 90.8026 115.097 82.5974 109.169 78.4039L69.6338 50.4376C63.7056 46.2441 55.5003 47.6504 51.3069 53.5786Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_6"
+                                        d="M69.4211 50.2873C63.4929 46.0938 55.2878 47.5 51.0943 53.4282L23.1281 92.9633C18.9346 98.8915 20.3409 107.097 26.2691 111.29C32.1973 115.484 40.4025 114.077 44.596 108.149L72.5621 68.6142C76.7556 62.686 75.3493 54.4808 69.4211 50.2873Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_2" 
+                                        d="M97.3874 10.7521C91.4592 6.55858 83.2539 7.96485 79.0604 13.8931L51.0943 53.4282C46.9008 59.3565 48.307 67.5617 54.2352 71.7552C60.1634 75.9487 68.3686 74.5424 72.5621 68.6142L100.528 29.079C104.722 23.1508 103.316 14.9456 97.3874 10.7521Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_1"
+                                        d="M51.508 0.415315C44.3509 1.64195 39.5433 8.43832 40.7699 15.5954L48.9503 63.3261C50.1769 70.4832 56.9733 75.2908 64.1304 74.0642C71.2876 72.8375 76.0952 66.0412 74.8685 58.884L66.6882 11.1534C65.4615 3.9963 58.6651 -0.811319 51.508 0.415315Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_5"
+                                        d="M59.7183 48.3196C52.5612 49.5463 47.7536 56.3426 48.9802 63.4998L57.1606 111.23C58.3872 118.388 65.1836 123.195 72.3407 121.968C79.4978 120.742 84.3055 113.945 83.0788 106.788L74.8985 59.0577C73.6718 51.9006 66.8754 47.093 59.7183 48.3196Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_7"
+                                        d="M1.1478 71.6078C2.37443 78.765 9.17081 83.5726 16.3279 82.3459L64.0585 74.1656C71.2157 72.9389 76.0233 66.1426 74.7966 58.9854C73.57 51.8283 66.7736 47.0207 59.6165 48.2473L11.8859 56.4277C4.72878 57.6543 -0.0788339 64.4507 1.1478 71.6078Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        <path id="petal_3"
+                                        d="M49.052 63.398C50.2786 70.5551 57.075 75.3627 64.2321 74.1361L111.963 65.9557C119.12 64.7291 123.927 57.9327 122.701 50.7756C121.474 43.6184 114.678 38.8108 107.521 40.0374L59.7901 48.2178C52.6329 49.4445 47.8253 56.2408 49.052 63.398Z" fill="#B6ADCC" fill-opacity="0.6"/>
+                                        </svg>
+                                        <svg class="flower_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210" fill="none">
+                                            <path d="M104.813 105.187C133.565 101.131 153.585 74.5335 149.528 45.7812C145.471 17.0288 118.874 -2.99085 90.1215 1.06599C61.3691 5.12282 41.3495 31.7199 45.4063 60.4723C49.4631 89.2246 76.0602 109.244 104.813 105.187Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                            <path d="M112.158 157.248C140.91 153.191 160.93 126.594 156.873 97.8419C152.816 69.0896 126.219 49.0699 97.467 53.1267C68.7147 57.1836 48.695 83.7807 52.7518 112.533C56.8087 141.285 83.4058 161.305 112.158 157.248Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                            <path d="M119.504 209.309C148.256 205.252 168.276 178.655 164.219 149.903C160.162 121.15 133.565 101.131 104.813 105.187C76.0602 109.244 56.0405 135.841 60.0974 164.594C64.1542 193.346 90.7513 213.366 119.504 209.309Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                            <path d="M60.0974 164.594C88.8497 160.537 108.869 133.94 104.813 105.187C100.756 76.4351 74.1586 56.4154 45.4063 60.4723C16.6539 64.5291 -3.36574 91.1262 0.691095 119.879C4.74793 148.631 31.345 168.651 60.0974 164.594Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                            <path d="M164.219 149.903C192.971 145.846 212.991 119.249 208.934 90.4964C204.877 61.744 178.28 41.7243 149.528 45.7812C120.775 49.838 100.756 76.4351 104.813 105.187C108.869 133.94 135.467 153.959 164.219 149.903Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                            </svg>
+                                    <div class="card">
+                                        <div class="card">
+                                            <img src="/assets/landing_page/project_mockup1.webp"
+                                            class="project-image">
+                                            <div class="content">
+                                                <div class="contentBx">
+                                                    <h1 class="hover-text">Case study: Coffee trip app redesign</h1>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="more-img-container">
-                                <a href="/pages/project-MH-brand.html">
-                                    <img id="hover"
-                                    src="/assets/landing_page/project-showcase-2.webp"
-                                    alt="Project 2"
-                                    class="more-image">
-                                <div class="overlay">
-                                    <div class="hover-text-more">Brand identity design</div>
                                 </div>
-                                </a>
-                            </div>
+                                
+                            </a> 
+                            <a href="/pages/project-MH-brand.html">
+                                <div class="card-wrapper">
+                                    <svg class="flower_5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" fill="none">
+                                        <path d="M19.1671 20.5361C17.6997 22.3748 16.9167 24.7632 17.1578 27.29C17.3989 29.8168 18.6195 32.014 20.4081 33.5421C15.2414 34.0351 8.29561 33.3494 7.80262 28.1826C7.30964 23.0159 14.0004 21.0291 19.1671 20.5361Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M24.7278 7.68697C29.8945 7.19399 32.1249 14.0859 32.6179 19.2527C30.7492 17.6562 28.2603 16.7903 25.6204 17.0422C22.9805 17.2941 20.7003 18.615 19.1671 20.5361C18.6742 15.3693 19.561 8.17996 24.7278 7.68697Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M33.8589 32.2587C35.3263 30.42 36.1093 28.0315 35.8682 25.5047C35.6271 22.9779 34.4066 20.7807 32.6179 19.2527C37.7846 18.7597 44.7304 19.4454 45.2234 24.6121C45.7164 29.7788 39.0256 31.7657 33.8589 32.2587Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M27.4056 35.7526C30.0456 35.5007 32.3258 34.1797 33.8589 32.2587C34.3519 37.4254 33.465 44.6148 28.2983 45.1078C23.1315 45.6007 20.9011 38.7088 20.4081 33.5421C22.2768 35.1385 24.7657 36.0045 27.4056 35.7526Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M35.7993 25.4898C35.5368 23.152 34.4016 20.9095 32.4444 19.2932C30.4872 17.677 28.0705 16.9863 25.7253 17.1706C29.0301 13.1686 34.4264 8.74211 38.4284 12.047C42.4304 15.3518 39.1042 21.4878 35.7993 25.4898Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M40.953 38.5075C37.6481 42.5095 31.1976 39.2133 27.1956 35.9084C29.6459 35.7159 32.0181 34.5683 33.7067 32.5235C35.3953 30.4787 36.0736 27.9323 35.7993 25.4898C39.8013 28.7947 44.2578 34.5055 40.953 38.5075Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M17.1216 27.5892C17.3841 29.927 18.5193 32.1695 20.4765 33.7858C22.4337 35.402 24.8504 36.0927 27.1956 35.9084C23.8908 39.9104 18.4945 44.3369 14.4925 41.032C10.4905 37.7272 13.8167 31.5912 17.1216 27.5892Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                        <path d="M19.2142 20.5555C17.5256 22.6003 16.8473 25.1468 17.1216 27.5892C13.1196 24.2843 8.66305 18.5735 11.9679 14.5715C15.2728 10.5695 21.7233 13.8657 25.7253 17.1706C23.275 17.3631 20.9028 18.5107 19.2142 20.5555Z" fill="#3F7B65" fill-opacity="0.54"/>
+                                      </svg>
+                                      <svg class="flower_6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151 150" fill="none">
+                                        <path d="M75.6851 74.89C67.2311 84.8055 62.4863 97.5047 62.4571 110.535L62.399 136.435C62.3827 143.696 68.2561 149.596 75.5176 149.612C82.779 149.629 88.6788 143.755 88.6951 136.494L88.7531 110.594C88.7824 97.5637 84.0945 84.8433 75.6851 74.89Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M75.6852 74.8903C84.1391 64.9748 88.884 52.2756 88.9132 39.2454L88.9712 13.3453C88.9875 6.08384 83.1141 0.18408 75.8527 0.167802C68.5912 0.151523 62.6914 6.0249 62.6752 13.2864L62.6171 39.1865C62.5879 52.2166 67.2757 64.937 75.6852 74.8903Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M75.5553 74.7597C65.6398 66.3057 52.9405 61.5609 39.9104 61.5317L14.0103 61.4736C6.74882 61.4573 0.849059 67.3307 0.83278 74.5922C0.816501 81.8536 6.68988 87.7534 13.9513 87.7697L39.8514 87.8277C52.8816 87.857 65.602 83.1691 75.5553 74.7597Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M75.555 74.7591C85.4705 83.213 98.1698 87.9579 111.2 87.9871L137.1 88.0452C144.361 88.0614 150.261 82.1881 150.278 74.9266C150.294 67.6651 144.42 61.7654 137.159 61.7491L111.259 61.691C98.2287 61.6618 85.5083 66.3497 75.555 74.7591Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M75.7398 74.799C88.8162 73.7586 101.098 68.107 110.394 58.8522L112.593 56.6633C121.889 47.4085 127.596 35.1523 128.695 22.0807C115.619 23.1211 103.337 28.7727 94.0406 38.0275L91.8418 40.2164C82.5454 49.4712 76.8388 61.7274 75.7398 74.799Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M22.7688 127.533C35.8452 126.492 48.1268 120.841 57.4232 111.586L59.622 109.397C68.9184 100.142 74.625 87.8861 75.724 74.8145C62.6476 75.8549 50.3659 81.5064 41.0695 90.7613L38.8708 92.9502C29.5744 102.205 23.8678 114.461 22.7688 127.533Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M75.7397 74.8144C76.78 87.8908 82.4316 100.172 91.6864 109.469L93.8754 111.668C103.13 120.964 115.386 126.671 128.458 127.77C127.418 114.693 121.766 102.412 112.511 93.1152L110.322 90.9164C101.067 81.62 88.8113 75.9134 75.7397 74.8144Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                        <path d="M23.0057 21.8434C24.0461 34.9198 29.6977 47.2015 38.9525 56.4979L41.1414 58.6967C50.3962 67.993 62.6524 73.6997 75.724 74.7987C74.6836 61.7223 69.032 49.4406 59.7772 40.1442L57.5883 37.9454C48.3335 28.649 36.0773 22.9424 23.0057 21.8434Z" fill="#F2BEA9" fill-opacity="0.66"/>
+                                      </svg>
+                                    <div class="project-container">
+                                        <div class="card">
+                                            <img src="/assets/landing_page/project_mockup3.webp"
+                                            class="project-image">
+                                            <div class="content">
+                                                <div class="contentBx">
+                                                    <h1 class="hover-text">Brand identity</span></h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div> 
     
