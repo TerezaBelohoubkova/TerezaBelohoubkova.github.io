@@ -118,17 +118,17 @@
   }
 
   .hero_pic {
-      width: 80vw;
+      width: 70vw;
       object-fit: contain;
       border-radius: 10px;
   }
 
   .hero_width {
-      width: 80vw;
+      width: 70vw;
   }
 
   .line {
-      width: 797px;
+      width: 70vw;
       stroke-width: 1.5px;
       stroke: #000;
       margin-left: 0;
@@ -138,13 +138,17 @@
       display: inline-flex;
       justify-content: space-between;
       align-items: flex-start;
-      width: 700px;
-      gap: 24px;
+      width: 70vw;
+      gap: 1.5rem;
   }
 
   .key {
-      width: 180px;
+      width: 12rem;
   }
+
+  .margin-5{
+    margin-left: 5px;
+}
 
   #hero:first-child {
     margin-top: 10vh;
@@ -169,8 +173,13 @@
   }
 
   #summary .section__pic-container{
-    width: 550px;
-    height: 600px;
+    width: 35vw;
+    height: auto;
+  }
+
+  .coffee_app_mockup{
+    height: 60vh;
+    width: auto;
   }
 
   #takeaways.section_container {
@@ -182,15 +191,25 @@
     gap: 1rem;
   }
 
-  #takeaways .section_subcontainer{
-    max-width: 640px;
-  }
-
   #takeaways .aboutme-h2{
     display: flex;
     width: 600px;
     justify-content: end;
     align-items: end;
+  }
+
+  .pic-container {
+    display: flex;
+    width: 25vw;
+    height: inherit;
+    position: static;
+  }
+
+  .hand-showcase{
+    width: 35vw;
+    position: relative;
+    left: -25%;
+    top: -10%;
   }
 
   .section_container-photo {
@@ -206,7 +225,7 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    line-height: calc(1ex / 0.32);
     letter-spacing: 1.6px;
     margin-left: 10px;
     margin-top: 5px;
@@ -216,12 +235,12 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 42px;
+    gap: 3rem;
     text-align: center;
 }
 
 .result {
-    width: 220px;
+    max-width: 17vw;
 }
 
 .column {
@@ -232,10 +251,18 @@
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
+}
+.no-wrap-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .more-image {
@@ -300,6 +327,60 @@
   display: none;
 }
 
+@media only screen and (max-width: 1000px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  #summary .section_container {
+    flex-wrap: wrap;
+  }
+  #takeaways .section_container{
+    flex-wrap: wrap-reverse;
+  }
+
+  #takeaways .aboutme-h2 {
+    width: auto;
+  }
+
+  .hand-showcase {
+    width: 80vw;
+    position: inherit;
+  }
+  .keys{
+    width: 80vw;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .key{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    background-color: #D5D3F8;
+    box-shadow: 2px 4px 12px #00000014;    
+    border-radius: 10px;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .key .subheader_h3{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.5rem;
+  }
+  .key .section_text_p2{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+} 
+
 @media only screen and (max-width: 600px) {
   #hero:first-child {
     margin-top: 10vh;
@@ -317,11 +398,13 @@
 
   .hero_width.aboutme-h2{
     font-size: 1.8rem !important;
+    text-align: center;
   }
 
   .line{
     width: 80vw;
     margin: 0;
+    stroke-width: 0.5rem;
   }
 
   .keys{
@@ -337,7 +420,8 @@
     display: flex;
     flex-direction: column;
     width: 35vw;
-    border: 1px solid #0E4132;
+    background-color: #D5D3F8;
+    box-shadow: 2px 4px 12px #00000014;    
     border-radius: 10px;
     height: 18vh;
     justify-content: center;
@@ -345,9 +429,10 @@
     padding: 0.5rem;
   }
   
-  .key .aboutme-h2{
+  .key .subheader_h3{
     font-size: 1.8rem;
     text-align: center;
+    color: #000;
     margin-bottom: 0.5rem;
   }
   .key .section_text_p2{
@@ -357,6 +442,7 @@
  
   .w-640{
     width: 80vw;
+    max-width: 70em;
   }
 
   #summary .section__pic-container{
@@ -377,6 +463,15 @@
 
   #takeaways .section_container{
     flex-direction: column-reverse;
+  }
+
+  .hand-showcase {
+    width: 80vw;
+    left: 0;
+    top: 0;
+  }
+  .pic-container {
+    width: 80vw;
   }
 
   h1{
@@ -418,7 +513,11 @@
 
   .width{
     width: 80vw;
+    max-width: 70em;
   }
+  .result {
+    max-width: 80vw;
+}
 
   .results{
     width: 80vw;
@@ -429,10 +528,6 @@
 
   #research .aboutme-h2{
     text-align: center;
-  }
-
-  .research_p2{
-    width: 60vw;
   }
 
   #design .aboutme-h2{
