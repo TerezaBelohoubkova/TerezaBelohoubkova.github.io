@@ -782,6 +782,14 @@ section {
     box-shadow: 70px 49px 24px 0px rgba(122, 122, 122, 0.00), 45px 31px 22px 0px rgba(122, 122, 122, 0.01), 25px 18px 18px 0px rgba(122, 122, 122, 0.05), 11px 8px 14px 0px rgba(122, 122, 122, 0.09), 3px 2px 8px 0px rgba(122, 122, 122, 0.10);
 }
 
+.vibes-pic-container {
+    width: 80vw;
+}
+
+.vibes {
+    width: inherit;
+}
+
 /*QUOTE SECTION*/
 .quote-heading{
     width: auto;
