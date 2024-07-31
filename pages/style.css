@@ -143,7 +143,8 @@ a,
     top: 0; /* Position the navbar at the top of the viewport */
     z-index: 1000;
     background: linear-gradient(to bottom, 417px 275px 140px 0px rgba(169, 169, 169, 0.00), 267px 176px 128px 0px rgba(169, 169, 169, 0.01), 150px 99px 108px 0px rgba(169, 169, 169, 0.05), 67px 44px 80px 0px rgba(169, 169, 169, 0.09), 17px 11px 44px 0px rgba(169, 169, 169, 0.10));
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px)!important;
+    -webkit-backdrop-filter: blur(5px)!important;
     display: flex;
     justify-content: center;
     flex-direction: column;
